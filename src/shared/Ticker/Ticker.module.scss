@@ -1,5 +1,5 @@
 .ticker {
-  @apply relative  translate-y-1/2;
+  @apply relative;
 
   &Row {
     @apply flex flex-nowrap relative items-center w-full overflow-hidden;

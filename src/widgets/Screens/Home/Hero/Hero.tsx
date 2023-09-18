@@ -945,7 +945,9 @@ export const Hero = () => {
           </div>
         </div>
       </section>
-      <Ticker />
+      <div className={styles.heroTicker}>
+        <Ticker />
+      </div>
     </>
   )
 }

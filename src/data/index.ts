@@ -66,3 +66,31 @@ export const blogArticles = [
     thumbnail: '/images/Home/Blog/3.png',
   },
 ]
+
+export const approaches = [
+  {
+    title: 'Initiate',
+    text: 'The client initiates the smart contract audit process by reaching out to us and expressing their interest.',
+    icon: '/images/Home/Approaches/1.svg',
+  },
+  {
+    title: 'Estimate',
+    text: 'We provide the client with an estimate, outlining the scope, timeline, and cost of the smart contract audit.',
+    icon: '/images/Home/Approaches/2.svg',
+  },
+  {
+    title: 'Acsess',
+    text: 'Our team conducts a comprehensive assessment of the smart contract, analysing the code and identifying potential vulnerabilities.',
+    icon: '/images/Home/Approaches/3.svg',
+  },
+  {
+    title: 'Generate',
+    text: 'We generate a detailed audit report that encompasses our findings, recommendations, and proposed solutions.',
+    icon: '/images/Home/Approaches/4.svg',
+  },
+  {
+    title: 'Publish',
+    text: 'Working closely with the client, we address and resolve the identified vulnerabilities by implementing necessary fixes and enhancements.',
+    icon: '/images/Home/Approaches/5.svg',
+  },
+]

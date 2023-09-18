@@ -1,3 +1,4 @@
+import { Approach } from './Approach/Approach'
 import { Blog } from './Blog/Blog'
 import { Hero } from './Hero/Hero'
 import { Services } from './Services/Services'
@@ -7,4 +8,5 @@ export const HomeScreens = [
   <Hero />,
   <Services />,
   <Blog />,
+  <Approach />,
 ]

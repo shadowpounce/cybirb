@@ -11,6 +11,9 @@ export const Blog = () => {
         <div className="section-head">
           <div className="line"></div>
           <span>[ 02 ]</span>
+          <div className="section-head-icon">
+            <img src="/images/icons/blog-head-icon.svg" alt="" />
+          </div>
         </div>
         <div className="section-text-group">
           <div className="section-title-block">

@@ -87,8 +87,16 @@ body {
 .section-head {
   @apply relative flex items-center justify-between overflow-hidden py-[1.5vh] px-[0.593vw];
 
+  &-icon {
+    @apply w-[1.483vw] h-[1.483vw];
+
+    img {
+      @apply w-full h-full object-contain object-center;
+    }
+  }
+
   .line {
-    @apply absolute top-0 left-0 w-full h-[1.5vh] rounded-[0.297vw] z-[-1];
+    @apply absolute top-0 left-0 w-full h-[1.5vh] rounded-[0.297vw] z-[0];
 
     border: 0.1vw solid #fff;
 

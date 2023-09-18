@@ -3,6 +3,10 @@
     @apply pt-[13vh] py-[2vh];
   }
 
+  &Ticker {
+    @apply translate-y-1/2;
+  }
+
   &Wrapper {
     @apply w-full h-full overflow-hidden flex gap-[3.440vw];
   }
