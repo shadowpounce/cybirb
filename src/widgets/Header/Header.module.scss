@@ -1,0 +1,22 @@
+.header {
+  @apply py-[1vh] rounded-b-[0.297vw] fixed top-0 left-0 right-0 z-[3];
+
+  background-color: $dark;
+  border: 0.1vh solid $stroke;
+
+  &Nav {
+    @apply w-full flex items-center justify-between;
+  }
+
+  &Logo {
+    @apply w-[8.837vw] h-[5.2vh];
+  }
+
+  &Group {
+    @apply flex items-center gap-[2.372vw];
+  }
+
+  &MenuButton {
+    @apply text-[0.712vw] flex items-center gap-[0.712vw] uppercase;
+  }
+}

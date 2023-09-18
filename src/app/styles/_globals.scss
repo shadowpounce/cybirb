@@ -1,0 +1,234 @@
+body {
+  font-family: $chakra;
+  font-weight: 400;
+  font-size: 0.949vw;
+  color: #fff;
+
+  background-color: #0d0c0f;
+}
+
+.clip {
+  @apply w-0 h-0 absolute opacity-0 pointer-events-none z-[-1];
+}
+
+.link-arrow {
+  @apply w-[0.830vw] h-[2.1vh];
+
+  &::before {
+    content: '';
+
+    @apply w-full h-full block bg-center bg-contain bg-no-repeat;
+
+    background-image: url('/images/icons/link-arrow.svg');
+  }
+}
+
+.card-number {
+  @apply text-[0.949vw] relative w-fit;
+
+  &::before {
+    content: '';
+
+    @apply absolute top-0 left-0 w-[175%] translate-y-[-30%] h-[75%] bg-center bg-no-repeat bg-cover z-[-1] pointer-events-none;
+
+    background-image: url('/images/ComponentBackgrounds/card-number-bg.png');
+  }
+}
+
+.top-shadow {
+  @apply block absolute left-1/2 translate-x-[-50%] top-0 max-w-[100vw] h-[100vh] w-full z-[4] pointer-events-none;
+
+  background-image: url('/images/Home/top-gradient.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+}
+
+.triangle {
+  @apply w-0 h-0 rotate-[-45deg] inline-block translate-y-[-100%] mr-[2vw];
+  border-left: 0.474vw solid transparent;
+  border-right: 0.474vw solid transparent;
+  border-bottom: 0.474vw solid #d9d9d9;
+}
+
+.rounded-stroke {
+  @apply rounded-[0.297vw];
+  border: 0.059vw solid $stroke;
+}
+
+.bordered-clip-block {
+  @apply p-[0.059vw];
+  background-color: $stroke;
+}
+
+.section-text-group {
+  @apply pt-[8vh] flex items-start justify-between;
+}
+
+.section-title-block {
+  @apply flex flex-col items-start relative;
+}
+
+.section-text-block {
+  @apply flex flex-col gap-[4.3vh];
+
+  p {
+    @apply text-[1.068vw];
+
+    color: $light-gray;
+  }
+}
+
+.section-label {
+  @apply text-[0.830vw] uppercase absolute top-[-1.73vh] left-0 translate-y-[-100%] whitespace-nowrap;
+  line-height: 145%;
+}
+
+.section-head {
+  @apply relative flex items-center justify-between overflow-hidden py-[1.5vh] px-[0.593vw];
+
+  .line {
+    @apply absolute top-0 left-0 w-full h-[1.5vh] rounded-[0.297vw] z-[-1];
+
+    border: 0.1vw solid #fff;
+
+    &::before {
+      content: '';
+
+      @apply h-full w-[110%] block absolute bottom-0 translate-y-[50%] left-1/2 translate-x-[-50%] right-0 z-[1];
+      background-color: $dark;
+    }
+  }
+}
+
+header {
+}
+
+footer {
+}
+
+section {
+  @apply h-screen bg-center bg-no-repeat relative;
+  background-size: 100%;
+
+  &.animated {
+    .reveal {
+      transform: translate(0) !important;
+      translate: 0 !important;
+      rotate: 0deg !important;
+      scale: 1 !important;
+      opacity: 1 !important;
+    }
+
+    .reveal-anim {
+      &.animated {
+        animation-fill-mode: forwards;
+        animation-name: revealAnim;
+      }
+    }
+
+    .reveal-width {
+      width: 100% !important;
+    }
+  }
+}
+
+div {
+  &.animated {
+    .reveal {
+      transform: translate(0) !important;
+      translate: 0 !important;
+      rotate: 0deg !important;
+      scale: 1 !important;
+      opacity: 1 !important;
+    }
+
+    .reveal-width {
+      width: 100% !important;
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply uppercase;
+  line-height: 96%;
+  font-weight: 500 !important;
+}
+
+h1 {
+  font-size: 5.931vw !important;
+  line-height: 90%;
+}
+
+h2 {
+  font-size: 3.546vw !important;
+}
+
+h3 {
+}
+
+h4 {
+}
+
+h5 {
+}
+
+h6 {
+}
+
+big {
+}
+
+.section-span {
+}
+
+.container {
+  @apply w-full h-full px-[3.559vw];
+  max-width: 100% !important;
+
+  &.space-top {
+    @apply pt-[13vh];
+  }
+}
+
+.fp-overflow {
+  height: 100% !important;
+  width: 100% !important;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.hidden-letter {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.reveal {
+  transition-duration: 0.5s;
+  transition-property: opacity, scale, translate, rotate, transform;
+
+  &.reveal-width {
+    transition-property: opacity, scale, translate, rotate, transform, width;
+  }
+}
+
+.fp-watermark {
+  display: none;
+}
+
+@keyframes revealAnim {
+  to {
+    transform: translate(0);
+    translate: 0;
+    rotate: 0deg;
+    scale: 1;
+    opacity: 1;
+  }
+}

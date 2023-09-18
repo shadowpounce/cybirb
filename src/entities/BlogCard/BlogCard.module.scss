@@ -1,0 +1,36 @@
+.blogCard {
+  @apply flex-1 relative;
+
+  border: 0.059vw solid $light-gray;
+
+  &:hover {
+    .blogCardThumbnail {
+      @apply opacity-100;
+    }
+  }
+
+  &:not(:last-child) {
+    border-right: none;
+  }
+
+  &Thumbnail {
+    @apply w-full h-full left-0 top-0 absolute pointer-events-none select-none object-cover object-center z-[-1] transition-opacity duration-500 opacity-0;
+  }
+
+  &Content {
+    @apply w-full h-full p-[2.372vw] pr-[3.321vw] flex flex-col justify-between items-start;
+  }
+
+  &Title {
+    @apply text-[2.372vw] font-medium max-w-[85%] w-full uppercase;
+    line-height: 125%;
+  }
+
+  &Info {
+    @apply flex flex-col gap-[2.5vh];
+  }
+
+  &Link {
+    @apply flex items-center gap-[0.474vw] uppercase;
+  }
+}
