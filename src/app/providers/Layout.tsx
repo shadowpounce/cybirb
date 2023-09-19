@@ -18,7 +18,7 @@ interface IProps {
 
 export const Layout: FC<IProps> = ({ children, withPreloader = true }) => {
   const [currentPage, setCurrentPage] = useState<string>('')
-  const [pageLoaded, setPageLoaded] = useState<boolean>(false)
+  const [pageLoaded, setPageLoaded] = useState<boolean>(true)
   const [activeScreen, setActiveScreen] = useState<number>(0)
   const [direction, setDirection] = useState<string>('')
   const [menuActive, setMenuActive] = useState<boolean>(false)
@@ -34,11 +34,11 @@ export const Layout: FC<IProps> = ({ children, withPreloader = true }) => {
 
   const location = useLocation()
 
-  useEffect(() => {
-    if (!withPreloader && !pageLoaded) {
-      setTimeout(() => setPageLoaded(true), 500)
-    }
-  }, [withPreloader])
+  // useEffect(() => {
+  //   if (!withPreloader && !pageLoaded) {
+  //     setTimeout(() => setPageLoaded(true), 500)
+  //   }
+  // }, [withPreloader])
 
   if (location.hash && hash === '') {
     setHash(location.hash)
@@ -82,6 +82,7 @@ export const Layout: FC<IProps> = ({ children, withPreloader = true }) => {
       <Menu />
       <Header />
       {children}
+      <Footer />
     </MainContext.Provider>
   )
 }

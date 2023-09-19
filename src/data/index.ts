@@ -94,3 +94,51 @@ export const approaches = [
     icon: '/images/Home/Approaches/5.svg',
   },
 ]
+
+export const testimonials = [
+  {
+    author: {
+      name: 'Adam Tøraasen',
+      position: 'CEO & Co-Founder, Hyfa Ltd',
+      companyLogo: '/images/Home/Testimonials/company-logo.svg',
+      photo: '/images/Home/Testimonials/photo.png',
+    },
+    text: 'leveraging best-in-class AI technology to protect and monitor blockchain protocols and smart ntracts.leveraging best-in-class AI technology to protect and monitor blockchain protocols and smart contracts.',
+  },
+  {
+    author: {
+      name: 'Adam Tøraasen',
+      position: 'CEO & Co-Founder, Hyfa Ltd',
+      companyLogo: '/images/Home/Testimonials/company-logo.svg',
+      photo: '/images/Home/Testimonials/photo.png',
+    },
+    text: 'leveraging best-in-class AI technology to protect and monitor blockchain protocols and smart ntracts.leveraging best-in-class AI technology to protect and monitor blockchain protocols and smart contracts.',
+  },
+  {
+    author: {
+      name: 'Adam Tøraasen',
+      position: 'CEO & Co-Founder, Hyfa Ltd',
+      companyLogo: '/images/Home/Testimonials/company-logo.svg',
+      photo: '/images/Home/Testimonials/photo.png',
+    },
+    text: 'leveraging best-in-class AI technology to protect and monitor blockchain protocols and smart ntracts.leveraging best-in-class AI technology to protect and monitor blockchain protocols and smart contracts.',
+  },
+  {
+    author: {
+      name: 'Adam Tøraasen',
+      position: 'CEO & Co-Founder, Hyfa Ltd',
+      companyLogo: '/images/Home/Testimonials/company-logo.svg',
+      photo: '/images/Home/Testimonials/photo.png',
+    },
+    text: 'leveraging best-in-class AI technology to protect and monitor blockchain protocols and smart ntracts.leveraging best-in-class AI technology to protect and monitor blockchain protocols and smart contracts.',
+  },
+  {
+    author: {
+      name: 'Adam Tøraasen',
+      position: 'CEO & Co-Founder, Hyfa Ltd',
+      companyLogo: '/images/Home/Testimonials/company-logo.svg',
+      photo: '/images/Home/Testimonials/photo.png',
+    },
+    text: 'leveraging best-in-class AI technology to protect and monitor blockchain protocols and smart ntracts.leveraging best-in-class AI technology to protect and monitor blockchain protocols and smart contracts.',
+  },
+]

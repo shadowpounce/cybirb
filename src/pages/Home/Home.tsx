@@ -4,6 +4,7 @@ import { HomeContext } from '../../app/providers/HomeContext'
 import { HomeScreens } from '../../widgets/Screens/Home'
 import { WithFullpage } from '../../app/providers/WithFullpage'
 import { MainContext } from '../../app/providers/MainContext'
+import { WithScrollSmoother } from '../../app/providers/WithScrollSmoother'
 
 export const Home = () => {
   const { setCurrentPage } = useContext(MainContext)
