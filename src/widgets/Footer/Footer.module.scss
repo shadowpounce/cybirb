@@ -56,7 +56,11 @@
 
     &Item {
       a {
-        @apply normal-case first-letter:capitalize;
+        @apply normal-case first-letter:capitalize flex items-center gap-[0.237vw];
+
+        svg {
+          @apply min-w-[1.75vw] w-[1.75vw] h-[2vh];
+        }
 
         color: $light-gray;
         line-height: 100%;

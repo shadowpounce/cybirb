@@ -35,7 +35,9 @@ export const Approach = () => {
           </div>
         </div>
       </div>
-      <Ticker />
+      <div className={styles.ticker}>
+        <Ticker />
+      </div>
       <div className="container">
         <div className={styles.approachCards}>
           {approaches.map((approach, idx) => (

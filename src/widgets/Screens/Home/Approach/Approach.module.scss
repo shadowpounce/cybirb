@@ -8,6 +8,8 @@
   &Head {
     @apply mt-[10.8vh] pb-[6.5vh] relative;
 
+    clip-path: polygon(0 0, 100% 0, 100% 84%, 84.5% 100%, 0 100%);
+
     background: #151515;
 
     div[class='line'] {
@@ -19,6 +21,10 @@
     div[class*='container'] {
       @apply pt-[5.4vh];
     }
+  }
+
+  .ticker {
+    @apply translate-y-[22.5%];
   }
 
   &Cards {
