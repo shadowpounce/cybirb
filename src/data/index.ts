@@ -1,3 +1,5 @@
+import { iMenuItem } from '../interfaces/IMenu'
+
 export const services = [
   {
     title: 'CybShield',
@@ -140,5 +142,129 @@ export const testimonials = [
       photo: '/images/Home/Testimonials/photo.png',
     },
     text: 'leveraging best-in-class AI technology to protect and monitor blockchain protocols and smart ntracts.leveraging best-in-class AI technology to protect and monitor blockchain protocols and smart contracts.',
+  },
+]
+
+export const menuItems: iMenuItem[] = [
+  {
+    title: 'Home page',
+    type: 'link',
+    href: '/',
+  },
+  {
+    title: 'Our services',
+    type: 'dropdown',
+    options: [
+      {
+        title: 'Web3 Audit Suit',
+        type: 'dropdown',
+        options: [
+          {
+            title: 'Smart Contract Security: CybShield',
+            type: 'link',
+            href: '/cybshield',
+          },
+          {
+            title: 'Smart Contract Security: CybShield',
+            type: 'link',
+            href: '/cybshield',
+          },
+          {
+            title: 'Token Sale Security: CybSafe',
+            type: 'link',
+            href: '/cybsafe',
+          },
+        ],
+      },
+      {
+        title: 'Blockchain Insights and Security Suit',
+        type: 'dropdown',
+        options: [
+          {
+            title: 'Blockchain Network Security: CybWatch',
+            type: 'link',
+            href: '/cybwatch',
+          },
+          {
+            title: 'Secure Wallet Solutions: CybTrace',
+            type: 'link',
+            href: '/cybtrace',
+          },
+          {
+            title: 'Privacy and Identity Protection: CybScan',
+            type: 'link',
+            href: '/cybscan',
+          },
+        ],
+      },
+      {
+        title: 'CybNest: Cybirb’s Bug Bounty',
+        type: 'dropdown',
+        options: [
+          {
+            title: 'Get your project enlisted',
+            type: 'link',
+            href: '/get',
+          },
+        ],
+      },
+      {
+        title: 'Optionals',
+        type: 'dropdown',
+        options: [
+          {
+            title: 'Onchain Monitoring',
+            type: 'link',
+            href: '/onchain-monitoring',
+          },
+          {
+            title: 'Overall Assessment',
+            type: 'link',
+            href: '/overall-assessment',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: '24 x 7 Incident Report',
+    type: 'link',
+    href: '/contact',
+  },
+  {
+    title: 'Company',
+    type: 'dropdown',
+    options: [
+      {
+        type: 'link',
+        title: 'Company',
+        href: '/company',
+      },
+      {
+        type: 'link',
+        title: 'about',
+        href: '/about',
+      },
+      {
+        type: 'link',
+        title: 'testimonials',
+        href: '/testimonials',
+      },
+      {
+        type: 'link',
+        title: 'join us!',
+        href: '/join-us',
+      },
+      {
+        type: 'link',
+        title: 'legal/disclaimer',
+        href: '/legal-disclaimer',
+      },
+      {
+        type: 'link',
+        title: 'media kit',
+        href: '/media-kit',
+      },
+    ],
   },
 ]
