@@ -3,36 +3,42 @@ import { iMenuItem } from '../interfaces/IMenu'
 export const services = [
   {
     title: 'CybShield',
+    link: '/blog/new-article',
     category: 'Smart Contract Security',
     text: 'Enhances smart contract security with cutting-edge AI analysis and comprehensive auditing',
     icon: '/images/Home/Services/1.svg',
   },
   {
     title: 'CybGuard',
+    link: '/blog/new-article',
     category: 'DApp Security',
     text: 'DApp Security - Protects decentralized applications (DApps) against threats with penetration testing and code review.',
     icon: '/images/Home/Services/2.svg',
   },
   {
     title: 'CybSafe',
+    link: '/blog/new-article',
     category: 'Token Sale Security',
     text: 'Ensures secure token sale events with escrow services and multi-factor authentication',
     icon: '/images/Home/Services/3.svg',
   },
   {
     title: 'CybWatch',
+    link: '/blog/new-article',
     category: 'Blockchain Network Security',
     text: 'Safeguards blockchain networks with intrusion detection and robust encryption',
     icon: '/images/Home/Services/4.svg',
   },
   {
     title: 'CybTotal',
+    link: '/blog/new-article',
     category: 'Smart Contract Security',
     text: 'Provides comprehensive security solutions, audits and assessments to identify vulnerabilities and enhance overall cybersecurity resilience',
     icon: '/images/Home/Services/5.svg',
   },
   {
     title: 'CybTrace',
+    link: '/blog/new-article',
     category: 'CybTotal',
     text: 'Provides secure wallet solutions with cold storage and hardware wallet integration',
     icon: '/images/Home/Services/6.svg',
@@ -54,16 +60,78 @@ export const socials = [
   },
 ]
 
+export const blogCategories = ['economic rick', 'general', 'partnerships']
+
 export const blogArticles = [
   {
+    link: '/blog/new-article',
+    category: 'economic rick',
     title: 'Security of information systems',
     thumbnail: '/images/Home/Blog/1.png',
   },
   {
+    link: '/blog/new-article',
+    category: 'general',
     title: 'Protection of personal data',
     thumbnail: '/images/Home/Blog/2.png',
   },
   {
+    link: '/blog/new-article',
+    category: 'partnerships',
+    title: 'Identification of potential and real threats',
+    thumbnail: '/images/Home/Blog/3.png',
+  },
+  {
+    link: '/blog/new-article',
+    category: 'economic rick',
+    title: 'Security of information systems',
+    thumbnail: '/images/Home/Blog/1.png',
+  },
+  {
+    link: '/blog/new-article',
+    category: 'general',
+    title: 'Protection of personal data',
+    thumbnail: '/images/Home/Blog/2.png',
+  },
+  {
+    link: '/blog/new-article',
+    category: 'partnerships',
+    title: 'Identification of potential and real threats',
+    thumbnail: '/images/Home/Blog/3.png',
+  },
+  {
+    link: '/blog/new-article',
+    category: 'economic rick',
+    title: 'Security of information systems',
+    thumbnail: '/images/Home/Blog/1.png',
+  },
+  {
+    link: '/blog/new-article',
+    category: 'general',
+    title: 'Protection of personal data',
+    thumbnail: '/images/Home/Blog/2.png',
+  },
+  {
+    link: '/blog/new-article',
+    category: 'partnerships',
+    title: 'Identification of potential and real threats',
+    thumbnail: '/images/Home/Blog/3.png',
+  },
+  {
+    link: '/blog/new-article',
+    category: 'economic rick',
+    title: 'Security of information systems',
+    thumbnail: '/images/Home/Blog/1.png',
+  },
+  {
+    link: '/blog/new-article',
+    category: 'general',
+    title: 'Protection of personal data',
+    thumbnail: '/images/Home/Blog/2.png',
+  },
+  {
+    link: '/blog/new-article',
+    category: 'partnerships',
     title: 'Identification of potential and real threats',
     thumbnail: '/images/Home/Blog/3.png',
   },

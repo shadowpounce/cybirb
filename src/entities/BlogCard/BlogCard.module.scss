@@ -3,9 +3,30 @@
 
   border: 0.059vw solid $light-gray;
 
+  &.clip {
+    border: none !important;
+  }
+
+  &Clip {
+    @apply absolute top-0 left-0 w-full h-full pointer-events-none z-[-1];
+  }
+
   &:hover {
     .blogCardThumbnail {
       @apply opacity-100;
+    }
+  }
+
+  &.fullBorder {
+    border-right: 0.0295vw solid $light-gray !important;
+    border-left: 0.0295vw solid $light-gray !important;
+
+    &:first-child {
+      border-left: 0.059vw solid $light-gray !important;
+    }
+
+    &:last-child {
+      border-right: 0.059vw solid $light-gray !important;
     }
   }
 
@@ -14,7 +35,8 @@
   }
 
   &Thumbnail {
-    @apply w-full h-full left-0 top-0 absolute pointer-events-none select-none object-cover object-center z-[-1] transition-opacity duration-500 opacity-0;
+    @apply w-full h-full left-0 top-0 scale-[0.995] absolute pointer-events-none select-none z-[-1] transition-opacity duration-500 opacity-0 overflow-hidden object-cover object-center;
+    transform-origin: left;
   }
 
   &Content {

@@ -5,6 +5,15 @@ body {
   color: #fff;
 
   background-color: #0d0c0f;
+
+  &::-webkit-scrollbar {
+    @apply appearance-none w-[0.356vw];
+  }
+
+  &::-webkit-scrollbar-thumb {
+    @apply w-[0.356vw] rounded-[0.178vw];
+    background-color: $blue;
+  }
 }
 
 .clip {
@@ -24,19 +33,19 @@ body {
 }
 
 .card-number {
-  @apply text-[0.949vw] relative w-fit;
+  @apply text-[0.949vw] relative w-fit font-medium;
 
   &::before {
     content: '';
 
     @apply absolute top-0 left-0 w-[175%] translate-y-[-30%] h-[75%] bg-center bg-no-repeat bg-cover z-[-1] pointer-events-none;
 
-    background-image: url('/images/ComponentBackgrounds/card-number-bg.png');
+    background-image: url('/images/ComponentBackgrounds/card-number-bg.svg');
   }
 }
 
 .top-shadow {
-  @apply block absolute left-1/2 translate-x-[-50%] top-0 max-w-[100vw] h-[100vh] w-full z-[4] pointer-events-none;
+  @apply block absolute left-1/2 translate-x-[-50%] top-0 max-w-[100vw] h-[100vh] w-full z-[5] pointer-events-none;
 
   background-image: url('/images/Home/top-gradient.png');
   background-repeat: no-repeat;
@@ -196,11 +205,16 @@ big {
 }
 
 .container {
-  @apply w-full h-full px-[3.559vw];
+  @apply w-full h-full px-[3.559vw] relative;
+
   max-width: 100% !important;
 
   &.space-top {
     @apply pt-[13vh];
+  }
+
+  &.space-bottom {
+    @apply pb-[13vh];
   }
 }
 

@@ -30,12 +30,15 @@ export const Blog = () => {
               technology to protect and monitor blockchain protocols and smart
               contracts.
             </p>
-            <Button>View blog</Button>
+            <Button type="link" href="/blog">
+              View blog
+            </Button>
           </div>
         </div>
         <div className={styles.blogCards}>
-          {blogArticles.map((blog, idx) => (
+          {blogArticles.slice(0, 3).map((blog, idx) => (
             <BlogCard
+              link={blog.link}
               title={blog.title}
               thumbnail={blog.thumbnail}
               id={idx + 1}
