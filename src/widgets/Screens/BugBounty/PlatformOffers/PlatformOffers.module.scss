@@ -1,0 +1,41 @@
+.platformOffers {
+  @apply h-fit;
+
+  div[class='section-title-block'] {
+    @apply max-w-[35vw] w-full;
+  }
+
+  div[class='section-text-block'] {
+    @apply max-w-[28.470vw] w-full;
+  }
+
+  &Statistic {
+    @apply flex flex-col items-start gap-[3.25vh] capitalize;
+
+    &Title {
+      @apply text-[2.372vw] font-medium;
+
+      line-height: 90%;
+    }
+
+    &Text {
+      @apply text-[1.186vw];
+
+      color: #7b7b7b;
+      line-height: 145%;
+    }
+  }
+
+  &Statistics {
+    @apply flex justify-between;
+  }
+
+  &Features {
+    @apply grid mt-[12vh];
+
+    column-gap: 1.186vw;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 54vh);
+    grid-auto-rows: 54vh;
+  }
+}

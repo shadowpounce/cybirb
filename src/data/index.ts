@@ -336,3 +336,59 @@ export const menuItems: iMenuItem[] = [
     ],
   },
 ]
+
+export const platformOffers = [
+  {
+    icon: '/images/BugBounty/PlatformOffers/1.svg',
+    title: 'Marketplace Integration',
+    text: [
+      'Develop a dedicated section within website for the marketplace.',
+      'Allow project owners to create listings for their projects, providing details such as project description, functionalities, and technologies used.',
+      'Implement a user-friendly interface for project owners to manage their listings, update project information, and track bug reports.',
+    ],
+  },
+  {
+    icon: '/images/BugBounty/PlatformOffers/2.svg',
+    title: 'Bug Bounty Program',
+    text: [
+      'enable project owners to define bug bounty programs for their listings.',
+      'specify the scope, rules, and rewards for participating hackers who find vulnerabilities.',
+      'Implement a secure submission process for bug reports, ensuring confidentiality and preventing unauthorized access to sensitive project information.',
+    ],
+  },
+  {
+    icon: '/images/BugBounty/PlatformOffers/3.svg',
+    title: 'Hacker Profiles and Reputation System: (Birb Brigade)',
+    text: [
+      'Allow hackers to create profiles and showcase their expertise and track record.',
+      'Implement a reputation system that rates and ranks hackers based on the quality and impact of their bug reports.',
+      'provide project owners with the ability to view hacker profiles and select hackers with proven track records for their bug bounty programs.',
+    ],
+  },
+  {
+    icon: '/images/BugBounty/PlatformOffers/4.svg',
+    title: 'Communication and Collaboration Tools',
+    text: [
+      'Integrate messaging or chat functionality to facilitate communication between project owners and participating hackers.',
+      'implement a notification system to alert project owners about new bug reports or updates from hackers.',
+      'encourage open and transparent communication, allowing project owners and hackers to discuss and resolve reported vulnerabilities.',
+    ],
+  },
+  {
+    icon: '/images/BugBounty/PlatformOffers/5.svg',
+    title: 'Escrow and Reward Distribution: (BirbSeed)',
+    text: [
+      'Implement an escrow system to hold bug bounty rewards until the reported vulnerabilities are verified and confirmed by project owners.',
+      'once a bug report is validated, facilitate the secure transfer of rewards to the participating hackers.',
+    ],
+  },
+  {
+    icon: '/images/BugBounty/PlatformOffers/6.svg',
+    title: 'Security and Legal Considerations',
+    text: [
+      'Establish clear terms and conditions for project owners and hackers participating in the bug bounty programs.',
+      'Ensure compliance with relevant legal and ethical guidelines for vulnerability disclosure and security testing',
+      'Implement measures to prevent abuse or malicious behaviour within the marketplace..',
+    ],
+  },
+]
