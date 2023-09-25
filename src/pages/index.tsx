@@ -1,5 +1,7 @@
 import { Article } from './Article/Article'
 import { Blog } from './Blog/Blog'
+import { BugBounty } from './BugBounty/BugBounty'
+import { Cybnest } from './Cybnest/Cybnest'
 import { Home } from './Home/Home'
 
 export const pages = [
@@ -19,6 +21,18 @@ export const pages = [
     title: 'Blog',
     path: '/blog/:slug',
     element: <Article />,
+    withPreloader: false,
+  },
+  {
+    title: 'Cybnest',
+    path: '/cybnest',
+    element: <Cybnest />,
+    withPreloader: false,
+  },
+  {
+    title: 'Bug Bounty',
+    path: '/bug-bounty',
+    element: <BugBounty />,
     withPreloader: false,
   },
 ]

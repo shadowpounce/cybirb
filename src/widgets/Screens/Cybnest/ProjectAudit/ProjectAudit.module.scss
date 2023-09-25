@@ -1,0 +1,25 @@
+.projectAudit {
+  @apply h-fit;
+
+  &TextBlock {
+    @apply max-w-[25.801vw] w-full;
+  }
+
+  div[class='section-title-block'] {
+    @apply max-w-[30vw] w-full;
+  }
+
+  div[class='section-text-group'] {
+    @apply items-end;
+  }
+
+  &Cards {
+    @apply flex gap-[1.186vw] mt-[12vh];
+
+    > div {
+      &:nth-child(2) {
+        @apply mt-[24vh];
+      }
+    }
+  }
+}

@@ -8,6 +8,7 @@ interface IProps {
   size?: 'normal' | 'big'
   type?: 'button' | 'link'
   href?: string
+  bordered?: boolean
 }
 
 export const Button: FC<IProps> = ({
@@ -16,13 +17,18 @@ export const Button: FC<IProps> = ({
   handleClick,
   type = 'button',
   href,
+  bordered = true,
 }) => {
   return type === 'button' ? (
     <button
       onClick={() => {
         handleClick && handleClick()
       }}
-      className={clsx(styles.button, styles[size])}
+      className={clsx(
+        styles.button,
+        styles[size],
+        !bordered && styles.noBordered
+      )}
     >
       <div className={styles.content}>{children}</div>
     </button>
@@ -32,7 +38,11 @@ export const Button: FC<IProps> = ({
       onClick={() => {
         handleClick && handleClick()
       }}
-      className={clsx(styles.button, styles[size])}
+      className={clsx(
+        styles.button,
+        styles[size],
+        !bordered && styles.noBordered
+      )}
     >
       <div className={styles.content}>{children}</div>
     </a>

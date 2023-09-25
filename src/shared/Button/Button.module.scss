@@ -1,6 +1,18 @@
 .button {
   @apply relative min-w-[9.490vw] min-h-[4.1vh] h-[4.1vh] w-fit overflow-hidden;
 
+  &.noBordered {
+    .content {
+      @apply border-none;
+      color: $light-gray !important;
+    }
+
+    &::before,
+    &::after {
+      @apply hidden;
+    }
+  }
+
   &.big {
     @apply min-w-[11.862vw] min-h-[5.417vh];
   }
