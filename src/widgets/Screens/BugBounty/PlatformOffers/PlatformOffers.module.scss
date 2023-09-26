@@ -9,27 +9,6 @@
     @apply max-w-[28.470vw] w-full;
   }
 
-  &Statistic {
-    @apply flex flex-col items-start gap-[3.25vh] capitalize;
-
-    &Title {
-      @apply text-[2.372vw] font-medium;
-
-      line-height: 90%;
-    }
-
-    &Text {
-      @apply text-[1.186vw];
-
-      color: #7b7b7b;
-      line-height: 145%;
-    }
-  }
-
-  &Statistics {
-    @apply flex justify-between;
-  }
-
   &Features {
     @apply grid mt-[12vh];
 

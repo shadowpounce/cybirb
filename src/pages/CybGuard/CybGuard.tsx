@@ -3,18 +3,18 @@ import { useContext, useEffect } from 'react'
 
 import { MainContext } from '../../app/providers/MainContext'
 import { WithScrollSmoother } from '../../app/providers/WithScrollSmoother'
-import { BugBountyScreens } from '../../widgets/Screens/BugBounty'
+import { CybGuardScreens } from '../../widgets/Screens/CybGuard'
 
-export const BugBounty = () => {
+export const CybGuard = () => {
   const { setCurrentPage } = useContext(MainContext)
 
   useEffect(() => {
-    setCurrentPage('bug-bounty')
+    setCurrentPage('cybguard')
   }, [])
 
   return (
     <>
-      {BugBountyScreens.map((screen, idx) => (
+      {CybGuardScreens.map((screen, idx) => (
         <React.Fragment key={idx}>{screen}</React.Fragment>
       ))}
     </>

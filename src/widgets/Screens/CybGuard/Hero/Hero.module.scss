@@ -1,16 +1,12 @@
-.projectAudit {
+.hero {
   @apply h-fit;
 
-  &TextBlock {
+  div[class='section-text-block'] {
     @apply max-w-[25.801vw] w-full;
   }
 
   div[class='section-title-block'] {
     @apply max-w-[30vw] w-full;
-  }
-
-  div[class='section-text-group'] {
-    @apply items-end;
   }
 
   &Cards {

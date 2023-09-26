@@ -1,6 +1,7 @@
 import { Article } from './Article/Article'
 import { Blog } from './Blog/Blog'
 import { BugBounty } from './BugBounty/BugBounty'
+import { CybGuard } from './CybGuard/CybGuard'
 import { Cybnest } from './Cybnest/Cybnest'
 import { Home } from './Home/Home'
 
@@ -33,6 +34,12 @@ export const pages = [
     title: 'Bug Bounty',
     path: '/bug-bounty',
     element: <BugBounty />,
+    withPreloader: false,
+  },
+  {
+    title: 'CybGuard',
+    path: '/cybguard',
+    element: <CybGuard />,
     withPreloader: false,
   },
 ]
