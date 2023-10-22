@@ -17,7 +17,7 @@ export const JoinBrigade = () => {
         <div className="section-text-group">
           <div className="section-title-block">
             <span className="section-label">// Cybirb’s Bug Bounty</span>
-            <h2>Hunt the bug to reap the rewards</h2>
+            <h3>Hunt the bug to reap the rewards</h3>
           </div>
           <div
             className={clsx('section-text-block', styles.joinBrigadeTextBlock)}

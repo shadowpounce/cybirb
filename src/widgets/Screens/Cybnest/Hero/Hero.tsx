@@ -13,10 +13,10 @@ export const Hero = () => {
         <div className="section-text-group">
           <div className="section-title-block">
             <span className="section-label">// Cybirb’s CybNest</span>
-            <h2>
+            <h3>
               CybNest: Cybirb’s Bug Bounty Platform where Hackers Unite,
               Projects Thrive
-            </h2>
+            </h3>
           </div>
         </div>
       </div>

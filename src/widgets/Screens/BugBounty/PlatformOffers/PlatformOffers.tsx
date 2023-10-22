@@ -9,8 +9,8 @@ export const PlatformOffers = () => {
   return (
     <>
       <section className={clsx('section', styles.platformOffers)}>
-        <div className="container space-top space-bottom">
-          <div className={styles.platformOffersFeatures}>
+        <div className="container space-bottom">
+          <div className="features-grid">
             {platformOffers.map((offer) => (
               <FeatureCard
                 title={offer.title}

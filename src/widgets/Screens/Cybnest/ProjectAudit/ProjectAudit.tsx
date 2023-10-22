@@ -17,7 +17,7 @@ export const ProjectAudit = () => {
         <div className="section-text-group">
           <div className="section-title-block">
             <span className="section-label">// Cybirb’s Bug Bounty</span>
-            <h2>Secure Smart Contracts with Birb Brigade</h2>
+            <h3>Secure Smart Contracts with Birb Brigade</h3>
           </div>
           <div
             className={clsx('section-text-block', styles.projectAuditTextBlock)}

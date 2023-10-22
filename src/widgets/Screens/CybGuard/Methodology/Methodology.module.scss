@@ -47,6 +47,10 @@
 
         .slideImage {
           @apply h-full max-w-[25vw] w-full relative;
+
+          img {
+            @apply w-full h-full object-contain object-center;
+          }
         }
 
         .slideTextInfo {

@@ -1,2871 +1,2110 @@
-import React from 'react'
-
 export const HeroBg = () => {
   return (
     <svg
       preserveAspectRatio="none"
       width="1686"
-      height="603"
-      viewBox="0 0 1686 603"
+      height="641"
+      viewBox="0 0 1686 641"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_2176_6030)">
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M52.8642 608L0 551.177V0H1686V551.177L1633.14 608H52.8642Z"
+        fill="#151515"
+      />
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M843 608L843 4.37126e-08L844 0L844 608L843 608Z"
+        fill="#272629"
+      />
+      <g clip-path="url(#clip0_2513_6035)">
         <rect
-          width="1768"
-          height="570"
-          transform="translate(-36)"
-          fill="#0D0C0F"
-        />
-        <rect x="13" y="12" width="4" height="4" fill="#252427" />
-        <rect x="62" y="12" width="4" height="4" fill="#252427" />
-        <rect x="111" y="12" width="4" height="4" fill="#252427" />
-        <rect x="160" y="12" width="4" height="4" fill="#252427" />
-        <rect x="209" y="12" width="4" height="4" fill="#252427" />
-        <rect x="258" y="12" width="4" height="4" fill="#252427" />
-        <rect x="307" y="12" width="4" height="4" fill="#252427" />
-        <rect x="356" y="12" width="4" height="4" fill="#252427" />
-        <rect x="405" y="12" width="4" height="4" fill="#252427" />
-        <rect x="454" y="12" width="4" height="4" fill="#252427" />
-        <rect x="503" y="12" width="4" height="4" fill="#252427" />
-        <rect x="552" y="12" width="4" height="4" fill="#252427" />
-        <rect x="601" y="12" width="4" height="4" fill="#252427" />
-        <rect x="650" y="12" width="4" height="4" fill="#252427" />
-        <rect x="699" y="12" width="4" height="4" fill="#252427" />
-        <rect x="748" y="12" width="4" height="4" fill="#252427" />
-        <rect x="797" y="12" width="4" height="4" fill="#252427" />
-        <rect x="846" y="12" width="4" height="4" fill="#252427" />
-        <rect x="895" y="12" width="4" height="4" fill="#252427" />
-        <rect x="944" y="12" width="4" height="4" fill="#252427" />
-        <rect x="993" y="12" width="4" height="4" fill="#252427" />
-        <rect x="1042" y="12" width="4" height="4" fill="#252427" />
-        <rect x="1091" y="12" width="4" height="4" fill="#252427" />
-        <rect x="1140" y="12" width="4" height="4" fill="#252427" />
-        <rect x="1189" y="12" width="4" height="4" fill="#252427" />
-        <rect x="1238" y="12" width="4" height="4" fill="#252427" />
-        <rect x="1287" y="12" width="4" height="4" fill="#252427" />
-        <rect x="1336" y="12" width="4" height="4" fill="#252427" />
-        <rect x="1385" y="12" width="4" height="4" fill="#252427" />
-        <rect x="1434" y="12" width="4" height="4" fill="#252427" />
-        <rect x="1483" y="12" width="4" height="4" fill="#252427" />
-        <rect x="1532" y="12" width="4" height="4" fill="#252427" />
-        <rect x="1581" y="12" width="4" height="4" fill="#252427" />
-        <rect x="1630" y="12" width="4" height="4" fill="#252427" />
-        <rect x="1679" y="12" width="4" height="4" fill="#252427" />
-        <rect x="13" y="40" width="4" height="4" fill="#252427" />
-        <rect x="62" y="40" width="4" height="4" fill="#252427" />
-        <rect x="111" y="40" width="4" height="4" fill="#252427" />
-        <rect x="160" y="40" width="4" height="4" fill="#252427" />
-        <rect x="209" y="40" width="4" height="4" fill="#252427" />
-        <rect x="258" y="40" width="4" height="4" fill="#252427" />
-        <rect x="307" y="40" width="4" height="4" fill="#252427" />
-        <rect x="356" y="40" width="4" height="4" fill="#252427" />
-        <rect x="405" y="40" width="4" height="4" fill="#252427" />
-        <rect x="454" y="40" width="4" height="4" fill="#252427" />
-        <rect x="503" y="40" width="4" height="4" fill="#252427" />
-        <rect x="552" y="40" width="4" height="4" fill="#252427" />
-        <rect x="601" y="40" width="4" height="4" fill="#252427" />
-        <rect x="650" y="40" width="4" height="4" fill="#252427" />
-        <rect x="699" y="40" width="4" height="4" fill="#252427" />
-        <rect x="748" y="40" width="4" height="4" fill="#252427" />
-        <rect x="797" y="40" width="4" height="4" fill="#252427" />
-        <rect x="846" y="40" width="4" height="4" fill="#252427" />
-        <rect x="895" y="40" width="4" height="4" fill="#252427" />
-        <rect x="944" y="40" width="4" height="4" fill="#252427" />
-        <rect x="993" y="40" width="4" height="4" fill="#252427" />
-        <rect x="1042" y="40" width="4" height="4" fill="#252427" />
-        <rect x="1091" y="40" width="4" height="4" fill="#252427" />
-        <rect x="1140" y="40" width="4" height="4" fill="#252427" />
-        <rect x="1189" y="40" width="4" height="4" fill="#252427" />
-        <rect x="1238" y="40" width="4" height="4" fill="#252427" />
-        <rect x="1287" y="40" width="4" height="4" fill="#252427" />
-        <rect x="1336" y="40" width="4" height="4" fill="#252427" />
-        <rect x="1385" y="40" width="4" height="4" fill="#252427" />
-        <rect x="1434" y="40" width="4" height="4" fill="#252427" />
-        <rect x="1483" y="40" width="4" height="4" fill="#252427" />
-        <rect x="1532" y="40" width="4" height="4" fill="#252427" />
-        <rect x="1581" y="40" width="4" height="4" fill="#252427" />
-        <rect x="1630" y="40" width="4" height="4" fill="#252427" />
-        <rect x="1679" y="40" width="4" height="4" fill="#252427" />
-        <rect x="13" y="68" width="4" height="4" fill="#252427" />
-        <rect x="62" y="68" width="4" height="4" fill="#252427" />
-        <rect x="111" y="68" width="4" height="4" fill="#252427" />
-        <rect x="160" y="68" width="4" height="4" fill="#252427" />
-        <rect x="209" y="68" width="4" height="4" fill="#252427" />
-        <rect x="258" y="68" width="4" height="4" fill="#252427" />
-        <rect x="307" y="68" width="4" height="4" fill="#252427" />
-        <rect x="356" y="68" width="4" height="4" fill="#252427" />
-        <rect x="405" y="68" width="4" height="4" fill="#252427" />
-        <rect x="454" y="68" width="4" height="4" fill="#252427" />
-        <rect x="503" y="68" width="4" height="4" fill="#252427" />
-        <rect x="552" y="68" width="4" height="4" fill="#252427" />
-        <rect x="601" y="68" width="4" height="4" fill="#252427" />
-        <rect x="650" y="68" width="4" height="4" fill="#252427" />
-        <rect x="699" y="68" width="4" height="4" fill="#252427" />
-        <rect x="748" y="68" width="4" height="4" fill="#252427" />
-        <rect x="797" y="68" width="4" height="4" fill="#252427" />
-        <rect x="846" y="68" width="4" height="4" fill="#252427" />
-        <rect x="895" y="68" width="4" height="4" fill="#252427" />
-        <rect x="944" y="68" width="4" height="4" fill="#252427" />
-        <rect x="993" y="68" width="4" height="4" fill="#252427" />
-        <rect x="1042" y="68" width="4" height="4" fill="#252427" />
-        <rect x="1091" y="68" width="4" height="4" fill="#252427" />
-        <rect x="1140" y="68" width="4" height="4" fill="#252427" />
-        <rect x="1189" y="68" width="4" height="4" fill="#252427" />
-        <rect x="1238" y="68" width="4" height="4" fill="#252427" />
-        <rect x="1287" y="68" width="4" height="4" fill="#252427" />
-        <rect x="1336" y="68" width="4" height="4" fill="#252427" />
-        <rect x="1385" y="68" width="4" height="4" fill="#252427" />
-        <rect x="1434" y="68" width="4" height="4" fill="#252427" />
-        <rect x="1483" y="68" width="4" height="4" fill="#252427" />
-        <rect x="1532" y="68" width="4" height="4" fill="#252427" />
-        <rect x="1581" y="68" width="4" height="4" fill="#252427" />
-        <rect x="1630" y="68" width="4" height="4" fill="#252427" />
-        <rect x="1679" y="68" width="4" height="4" fill="#252427" />
-        <rect x="13" y="96" width="4" height="4" fill="#252427" />
-        <rect x="62" y="96" width="4" height="4" fill="#252427" />
-        <rect x="111" y="96" width="4" height="4" fill="#252427" />
-        <rect x="160" y="96" width="4" height="4" fill="#252427" />
-        <rect x="209" y="96" width="4" height="4" fill="#252427" />
-        <rect x="258" y="96" width="4" height="4" fill="#252427" />
-        <rect x="307" y="96" width="4" height="4" fill="#252427" />
-        <rect x="356" y="96" width="4" height="4" fill="#252427" />
-        <rect x="405" y="96" width="4" height="4" fill="#252427" />
-        <rect x="454" y="96" width="4" height="4" fill="#252427" />
-        <rect x="503" y="96" width="4" height="4" fill="#252427" />
-        <rect x="552" y="96" width="4" height="4" fill="#252427" />
-        <rect x="601" y="96" width="4" height="4" fill="#252427" />
-        <rect x="650" y="96" width="4" height="4" fill="#252427" />
-        <rect x="699" y="96" width="4" height="4" fill="#252427" />
-        <rect x="748" y="96" width="4" height="4" fill="#252427" />
-        <rect x="797" y="96" width="4" height="4" fill="#252427" />
-        <rect x="846" y="96" width="4" height="4" fill="#252427" />
-        <rect x="895" y="96" width="4" height="4" fill="#252427" />
-        <rect x="944" y="96" width="4" height="4" fill="#252427" />
-        <rect x="993" y="96" width="4" height="4" fill="#252427" />
-        <rect x="1042" y="96" width="4" height="4" fill="#252427" />
-        <rect x="1091" y="96" width="4" height="4" fill="#252427" />
-        <rect x="1140" y="96" width="4" height="4" fill="#252427" />
-        <rect x="1189" y="96" width="4" height="4" fill="#252427" />
-        <rect x="1238" y="96" width="4" height="4" fill="#252427" />
-        <rect x="1287" y="96" width="4" height="4" fill="#252427" />
-        <rect x="1336" y="96" width="4" height="4" fill="#252427" />
-        <rect x="1385" y="96" width="4" height="4" fill="#252427" />
-        <rect x="1434" y="96" width="4" height="4" fill="#252427" />
-        <rect x="1483" y="96" width="4" height="4" fill="#252427" />
-        <rect x="1532" y="96" width="4" height="4" fill="#252427" />
-        <rect x="1581" y="96" width="4" height="4" fill="#252427" />
-        <rect x="1630" y="96" width="4" height="4" fill="#252427" />
-        <rect x="1679" y="96" width="4" height="4" fill="#252427" />
-        <rect x="13" y="124" width="4" height="4" fill="#252427" />
-        <rect x="62" y="124" width="4" height="4" fill="#252427" />
-        <rect x="111" y="124" width="4" height="4" fill="#252427" />
-        <rect x="160" y="124" width="4" height="4" fill="#252427" />
-        <rect x="209" y="124" width="4" height="4" fill="#252427" />
-        <rect x="258" y="124" width="4" height="4" fill="#252427" />
-        <rect x="307" y="124" width="4" height="4" fill="#252427" />
-        <rect x="356" y="124" width="4" height="4" fill="#252427" />
-        <rect x="405" y="124" width="4" height="4" fill="#252427" />
-        <rect x="454" y="124" width="4" height="4" fill="#252427" />
-        <rect x="503" y="124" width="4" height="4" fill="#252427" />
-        <rect x="552" y="124" width="4" height="4" fill="#252427" />
-        <rect x="601" y="124" width="4" height="4" fill="#252427" />
-        <rect x="650" y="124" width="4" height="4" fill="#252427" />
-        <rect x="699" y="124" width="4" height="4" fill="#252427" />
-        <rect x="748" y="124" width="4" height="4" fill="#252427" />
-        <rect x="797" y="124" width="4" height="4" fill="#252427" />
-        <rect x="846" y="124" width="4" height="4" fill="#252427" />
-        <rect x="895" y="124" width="4" height="4" fill="#252427" />
-        <rect x="944" y="124" width="4" height="4" fill="#252427" />
-        <rect x="993" y="124" width="4" height="4" fill="#252427" />
-        <rect x="1042" y="124" width="4" height="4" fill="#252427" />
-        <rect x="1091" y="124" width="4" height="4" fill="#252427" />
-        <rect x="1140" y="124" width="4" height="4" fill="#252427" />
-        <rect x="1189" y="124" width="4" height="4" fill="#252427" />
-        <rect x="1238" y="124" width="4" height="4" fill="#252427" />
-        <rect x="1287" y="124" width="4" height="4" fill="#252427" />
-        <rect x="1336" y="124" width="4" height="4" fill="#252427" />
-        <rect x="1385" y="124" width="4" height="4" fill="#252427" />
-        <rect x="1434" y="124" width="4" height="4" fill="#252427" />
-        <rect x="1483" y="124" width="4" height="4" fill="#252427" />
-        <rect x="1532" y="124" width="4" height="4" fill="#252427" />
-        <rect x="1581" y="124" width="4" height="4" fill="#252427" />
-        <rect x="1630" y="124" width="4" height="4" fill="#252427" />
-        <rect x="1679" y="124" width="4" height="4" fill="#252427" />
-        <rect x="13" y="152" width="4" height="4" fill="#252427" />
-        <rect x="62" y="152" width="4" height="4" fill="#252427" />
-        <rect x="111" y="152" width="4" height="4" fill="#252427" />
-        <rect x="160" y="152" width="4" height="4" fill="#252427" />
-        <rect x="209" y="152" width="4" height="4" fill="#252427" />
-        <rect x="258" y="152" width="4" height="4" fill="#252427" />
-        <rect x="307" y="152" width="4" height="4" fill="#252427" />
-        <rect x="356" y="152" width="4" height="4" fill="#252427" />
-        <rect x="405" y="152" width="4" height="4" fill="#252427" />
-        <rect x="454" y="152" width="4" height="4" fill="#252427" />
-        <rect x="503" y="152" width="4" height="4" fill="#252427" />
-        <rect x="552" y="152" width="4" height="4" fill="#252427" />
-        <rect x="601" y="152" width="4" height="4" fill="#252427" />
-        <rect x="650" y="152" width="4" height="4" fill="#252427" />
-        <rect x="699" y="152" width="4" height="4" fill="#252427" />
-        <rect x="748" y="152" width="4" height="4" fill="#252427" />
-        <rect x="797" y="152" width="4" height="4" fill="#252427" />
-        <rect x="846" y="152" width="4" height="4" fill="#252427" />
-        <rect x="895" y="152" width="4" height="4" fill="#3D3D3F" />
-        <rect x="944" y="152" width="4" height="4" fill="#252427" />
-        <rect x="993" y="152" width="4" height="4" fill="#252427" />
-        <rect x="1042" y="152" width="4" height="4" fill="#252427" />
-        <rect x="1091" y="152" width="4" height="4" fill="#252427" />
-        <rect x="1140" y="152" width="4" height="4" fill="#252427" />
-        <rect x="1189" y="152" width="4" height="4" fill="#252427" />
-        <rect x="1238" y="152" width="4" height="4" fill="#252427" />
-        <rect x="1287" y="152" width="4" height="4" fill="#252427" />
-        <rect x="1336" y="152" width="4" height="4" fill="#252427" />
-        <rect x="1385" y="152" width="4" height="4" fill="#252427" />
-        <rect x="1434" y="152" width="4" height="4" fill="#252427" />
-        <rect x="1483" y="152" width="4" height="4" fill="#252427" />
-        <rect x="1532" y="152" width="4" height="4" fill="#252427" />
-        <rect x="1581" y="152" width="4" height="4" fill="#252427" />
-        <rect x="1630" y="152" width="4" height="4" fill="#252427" />
-        <rect x="1679" y="152" width="4" height="4" fill="#252427" />
-        <rect x="13" y="180" width="4" height="4" fill="#252427" />
-        <rect x="62" y="180" width="4" height="4" fill="#252427" />
-        <rect x="111" y="180" width="4" height="4" fill="#252427" />
-        <rect x="160" y="180" width="4" height="4" fill="#252427" />
-        <rect x="209" y="180" width="4" height="4" fill="#252427" />
-        <rect x="258" y="180" width="4" height="4" fill="#252427" />
-        <rect x="307" y="180" width="4" height="4" fill="#252427" />
-        <rect x="356" y="180" width="4" height="4" fill="#252427" />
-        <rect x="405" y="180" width="4" height="4" fill="#252427" />
-        <rect x="454" y="180" width="4" height="4" fill="#252427" />
-        <rect x="503" y="180" width="4" height="4" fill="#252427" />
-        <rect x="552" y="180" width="4" height="4" fill="#252427" />
-        <rect x="601" y="180" width="4" height="4" fill="#252427" />
-        <rect x="650" y="180" width="4" height="4" fill="#252427" />
-        <rect x="699" y="180" width="4" height="4" fill="#252427" />
-        <rect x="748" y="180" width="4" height="4" fill="#252427" />
-        <rect x="797" y="180" width="4" height="4" fill="#252427" />
-        <rect x="846" y="180" width="4" height="4" fill="#252427" />
-        <rect x="895" y="180" width="4" height="4" fill="#252427" />
-        <rect x="944" y="180" width="4" height="4" fill="#252427" />
-        <rect x="993" y="180" width="4" height="4" fill="#252427" />
-        <rect x="1042" y="180" width="4" height="4" fill="#252427" />
-        <rect x="1091" y="180" width="4" height="4" fill="#252427" />
-        <rect x="1140" y="180" width="4" height="4" fill="#252427" />
-        <rect x="1189" y="180" width="4" height="4" fill="#252427" />
-        <rect x="1238" y="180" width="4" height="4" fill="#252427" />
-        <rect x="1287" y="180" width="4" height="4" fill="#252427" />
-        <rect x="1336" y="180" width="4" height="4" fill="#252427" />
-        <rect x="1385" y="180" width="4" height="4" fill="#252427" />
-        <rect x="1434" y="180" width="4" height="4" fill="#252427" />
-        <rect x="1483" y="180" width="4" height="4" fill="#252427" />
-        <rect x="1532" y="180" width="4" height="4" fill="#3D3D3F" />
-        <rect x="1581" y="180" width="4" height="4" fill="#252427" />
-        <rect x="1630" y="180" width="4" height="4" fill="#252427" />
-        <rect x="1679" y="180" width="4" height="4" fill="#252427" />
-        <rect x="13" y="208" width="4" height="4" fill="#252427" />
-        <rect x="62" y="208" width="4" height="4" fill="#252427" />
-        <rect x="111" y="208" width="4" height="4" fill="#252427" />
-        <rect x="160" y="208" width="4" height="4" fill="#252427" />
-        <rect x="209" y="208" width="4" height="4" fill="#252427" />
-        <rect x="258" y="208" width="4" height="4" fill="#252427" />
-        <rect x="307" y="208" width="4" height="4" fill="#252427" />
-        <rect x="356" y="208" width="4" height="4" fill="#252427" />
-        <rect x="405" y="208" width="4" height="4" fill="#252427" />
-        <rect x="454" y="208" width="4" height="4" fill="#252427" />
-        <rect x="503" y="208" width="4" height="4" fill="#252427" />
-        <rect x="552" y="208" width="4" height="4" fill="#252427" />
-        <rect x="601" y="208" width="4" height="4" fill="#252427" />
-        <rect x="650" y="208" width="4" height="4" fill="#252427" />
-        <rect x="699" y="208" width="4" height="4" fill="#252427" />
-        <rect x="748" y="208" width="4" height="4" fill="#252427" />
-        <rect x="797" y="208" width="4" height="4" fill="#252427" />
-        <rect x="846" y="208" width="4" height="4" fill="#252427" />
-        <rect x="895" y="208" width="4" height="4" fill="#252427" />
-        <rect x="944" y="208" width="4" height="4" fill="#252427" />
-        <rect x="993" y="208" width="4" height="4" fill="#252427" />
-        <rect x="1042" y="208" width="4" height="4" fill="#252427" />
-        <rect x="1091" y="208" width="4" height="4" fill="#252427" />
-        <rect x="1140" y="208" width="4" height="4" fill="#252427" />
-        <rect x="1189" y="208" width="4" height="4" fill="#252427" />
-        <rect x="1238" y="208" width="4" height="4" fill="#252427" />
-        <rect x="1287" y="208" width="4" height="4" fill="#252427" />
-        <rect x="1336" y="208" width="4" height="4" fill="#252427" />
-        <rect x="1385" y="208" width="4" height="4" fill="#252427" />
-        <rect x="1434" y="208" width="4" height="4" fill="#252427" />
-        <rect x="1483" y="208" width="4" height="4" fill="#252427" />
-        <rect x="1532" y="208" width="4" height="4" fill="#252427" />
-        <rect x="1581" y="208" width="4" height="4" fill="#252427" />
-        <rect x="1630" y="208" width="4" height="4" fill="#252427" />
-        <rect x="1679" y="208" width="4" height="4" fill="#252427" />
-        <rect x="13" y="236" width="4" height="4" fill="#252427" />
-        <rect x="62" y="236" width="4" height="4" fill="#252427" />
-        <rect x="111" y="236" width="4" height="4" fill="#252427" />
-        <rect x="160" y="236" width="4" height="4" fill="#252427" />
-        <rect x="209" y="236" width="4" height="4" fill="#252427" />
-        <rect x="258" y="236" width="4" height="4" fill="#252427" />
-        <rect x="307" y="236" width="4" height="4" fill="#252427" />
-        <rect x="356" y="236" width="4" height="4" fill="#252427" />
-        <rect x="405" y="236" width="4" height="4" fill="#252427" />
-        <rect x="454" y="236" width="4" height="4" fill="#252427" />
-        <rect x="503" y="236" width="4" height="4" fill="#252427" />
-        <rect x="552" y="236" width="4" height="4" fill="#252427" />
-        <rect x="601" y="236" width="4" height="4" fill="#252427" />
-        <rect x="650" y="236" width="4" height="4" fill="#252427" />
-        <rect x="699" y="236" width="4" height="4" fill="#252427" />
-        <rect x="748" y="236" width="4" height="4" fill="#252427" />
-        <rect x="797" y="236" width="4" height="4" fill="#252427" />
-        <rect x="846" y="236" width="4" height="4" fill="#252427" />
-        <rect x="895" y="236" width="4" height="4" fill="#252427" />
-        <rect x="944" y="236" width="4" height="4" fill="#252427" />
-        <rect x="993" y="236" width="4" height="4" fill="#252427" />
-        <rect x="1042" y="236" width="4" height="4" fill="#252427" />
-        <rect x="1091" y="236" width="4" height="4" fill="#252427" />
-        <rect x="1140" y="236" width="4" height="4" fill="#252427" />
-        <rect x="1189" y="236" width="4" height="4" fill="#252427" />
-        <rect x="1238" y="236" width="4" height="4" fill="#252427" />
-        <rect x="1287" y="236" width="4" height="4" fill="#252427" />
-        <rect x="1336" y="236" width="4" height="4" fill="#252427" />
-        <rect x="1385" y="236" width="4" height="4" fill="#252427" />
-        <rect x="1434" y="236" width="4" height="4" fill="#252427" />
-        <rect x="1483" y="236" width="4" height="4" fill="#252427" />
-        <rect x="1532" y="236" width="4" height="4" fill="#252427" />
-        <rect x="1581" y="236" width="4" height="4" fill="#252427" />
-        <rect x="1630" y="236" width="4" height="4" fill="#252427" />
-        <rect x="1679" y="236" width="4" height="4" fill="#252427" />
-        <rect x="13" y="264" width="4" height="4" fill="#252427" />
-        <rect x="62" y="264" width="4" height="4" fill="#252427" />
-        <rect x="111" y="264" width="4" height="4" fill="#252427" />
-        <rect x="160" y="264" width="4" height="4" fill="#252427" />
-        <rect x="209" y="264" width="4" height="4" fill="#252427" />
-        <rect x="258" y="264" width="4" height="4" fill="#252427" />
-        <rect x="307" y="264" width="4" height="4" fill="#252427" />
-        <rect x="356" y="264" width="4" height="4" fill="#252427" />
-        <rect x="405" y="264" width="4" height="4" fill="#252427" />
-        <rect x="454" y="264" width="4" height="4" fill="#252427" />
-        <rect x="503" y="264" width="4" height="4" fill="#252427" />
-        <rect x="552" y="264" width="4" height="4" fill="#252427" />
-        <rect x="601" y="264" width="4" height="4" fill="#252427" />
-        <rect x="650" y="264" width="4" height="4" fill="#252427" />
-        <rect x="699" y="264" width="4" height="4" fill="#252427" />
-        <rect x="748" y="264" width="4" height="4" fill="#252427" />
-        <rect x="797" y="264" width="4" height="4" fill="#252427" />
-        <rect x="846" y="264" width="4" height="4" fill="#252427" />
-        <rect x="895" y="264" width="4" height="4" fill="#252427" />
-        <rect x="944" y="264" width="4" height="4" fill="#252427" />
-        <rect x="993" y="264" width="4" height="4" fill="#252427" />
-        <rect x="1042" y="264" width="4" height="4" fill="#252427" />
-        <rect x="1091" y="264" width="4" height="4" fill="#252427" />
-        <rect x="1140" y="264" width="4" height="4" fill="#252427" />
-        <rect x="1189" y="264" width="4" height="4" fill="#252427" />
-        <rect x="1238" y="264" width="4" height="4" fill="#252427" />
-        <rect x="1287" y="264" width="4" height="4" fill="#252427" />
-        <rect x="1336" y="264" width="4" height="4" fill="#252427" />
-        <rect x="1385" y="264" width="4" height="4" fill="#252427" />
-        <rect x="1434" y="264" width="4" height="4" fill="#252427" />
-        <rect x="1483" y="264" width="4" height="4" fill="#252427" />
-        <rect x="1532" y="264" width="4" height="4" fill="#252427" />
-        <rect x="1581" y="264" width="4" height="4" fill="#252427" />
-        <rect x="1630" y="264" width="4" height="4" fill="#252427" />
-        <rect x="1679" y="264" width="4" height="4" fill="#252427" />
-        <rect x="13" y="292" width="4" height="4" fill="#252427" />
-        <rect x="62" y="292" width="4" height="4" fill="#252427" />
-        <rect x="111" y="292" width="4" height="4" fill="#252427" />
-        <rect x="160" y="292" width="4" height="4" fill="#252427" />
-        <rect x="209" y="292" width="4" height="4" fill="#252427" />
-        <rect x="258" y="292" width="4" height="4" fill="#252427" />
-        <rect x="307" y="292" width="4" height="4" fill="#252427" />
-        <rect x="356" y="292" width="4" height="4" fill="#252427" />
-        <rect x="405" y="292" width="4" height="4" fill="#252427" />
-        <rect x="454" y="292" width="4" height="4" fill="#252427" />
-        <rect x="503" y="292" width="4" height="4" fill="#252427" />
-        <rect x="552" y="292" width="4" height="4" fill="#252427" />
-        <rect x="601" y="292" width="4" height="4" fill="#252427" />
-        <rect x="650" y="292" width="4" height="4" fill="#252427" />
-        <rect x="699" y="292" width="4" height="4" fill="#252427" />
-        <rect x="748" y="292" width="4" height="4" fill="#252427" />
-        <rect x="797" y="292" width="4" height="4" fill="#252427" />
-        <rect x="846" y="292" width="4" height="4" fill="#252427" />
-        <rect x="895" y="292" width="4" height="4" fill="#252427" />
-        <rect x="944" y="292" width="4" height="4" fill="#252427" />
-        <rect x="993" y="292" width="4" height="4" fill="#252427" />
-        <rect x="1042" y="292" width="4" height="4" fill="#252427" />
-        <rect x="1091" y="292" width="4" height="4" fill="#252427" />
-        <rect x="1140" y="292" width="4" height="4" fill="#252427" />
-        <rect x="1189" y="292" width="4" height="4" fill="#252427" />
-        <rect x="1238" y="292" width="4" height="4" fill="#252427" />
-        <rect x="1287" y="292" width="4" height="4" fill="#252427" />
-        <rect x="1336" y="292" width="4" height="4" fill="#252427" />
-        <rect x="1385" y="292" width="4" height="4" fill="#252427" />
-        <rect x="1434" y="292" width="4" height="4" fill="#252427" />
-        <rect x="1483" y="292" width="4" height="4" fill="#252427" />
-        <rect x="1532" y="292" width="4" height="4" fill="#252427" />
-        <rect x="1581" y="292" width="4" height="4" fill="#252427" />
-        <rect x="1630" y="292" width="4" height="4" fill="#252427" />
-        <rect x="1679" y="292" width="4" height="4" fill="#252427" />
-        <rect x="13" y="320" width="4" height="4" fill="#252427" />
-        <rect x="62" y="320" width="4" height="4" fill="#252427" />
-        <rect x="111" y="320" width="4" height="4" fill="#252427" />
-        <rect x="160" y="320" width="4" height="4" fill="#252427" />
-        <rect x="209" y="320" width="4" height="4" fill="#252427" />
-        <rect x="258" y="320" width="4" height="4" fill="#252427" />
-        <rect x="307" y="320" width="4" height="4" fill="#252427" />
-        <rect x="356" y="320" width="4" height="4" fill="#252427" />
-        <rect x="405" y="320" width="4" height="4" fill="#252427" />
-        <rect x="454" y="320" width="4" height="4" fill="#252427" />
-        <rect x="503" y="320" width="4" height="4" fill="#252427" />
-        <rect x="552" y="320" width="4" height="4" fill="#252427" />
-        <rect x="601" y="320" width="4" height="4" fill="#252427" />
-        <rect x="650" y="320" width="4" height="4" fill="#252427" />
-        <rect x="699" y="320" width="4" height="4" fill="#252427" />
-        <rect x="748" y="320" width="4" height="4" fill="#252427" />
-        <rect x="797" y="320" width="4" height="4" fill="#252427" />
-        <rect x="846" y="320" width="4" height="4" fill="#252427" />
-        <rect x="895" y="320" width="4" height="4" fill="#252427" />
-        <rect x="944" y="320" width="4" height="4" fill="#252427" />
-        <rect x="993" y="320" width="4" height="4" fill="#252427" />
-        <rect x="1042" y="320" width="4" height="4" fill="#252427" />
-        <rect x="1091" y="320" width="4" height="4" fill="#252427" />
-        <rect x="1140" y="320" width="4" height="4" fill="#252427" />
-        <rect x="1189" y="320" width="4" height="4" fill="#252427" />
-        <rect x="1238" y="320" width="4" height="4" fill="#252427" />
-        <rect x="1287" y="320" width="4" height="4" fill="#252427" />
-        <rect x="1336" y="320" width="4" height="4" fill="#252427" />
-        <rect x="1385" y="320" width="4" height="4" fill="#252427" />
-        <rect x="1434" y="320" width="4" height="4" fill="#252427" />
-        <rect x="1483" y="320" width="4" height="4" fill="#252427" />
-        <rect x="1532" y="320" width="4" height="4" fill="#252427" />
-        <rect x="1581" y="320" width="4" height="4" fill="#252427" />
-        <rect x="1630" y="320" width="4" height="4" fill="#252427" />
-        <rect x="1679" y="320" width="4" height="4" fill="#252427" />
-        <rect x="13" y="348" width="4" height="4" fill="#252427" />
-        <rect x="62" y="348" width="4" height="4" fill="#252427" />
-        <rect x="111" y="348" width="4" height="4" fill="#252427" />
-        <rect x="160" y="348" width="4" height="4" fill="#252427" />
-        <rect x="209" y="348" width="4" height="4" fill="#252427" />
-        <rect x="258" y="348" width="4" height="4" fill="#252427" />
-        <rect x="307" y="348" width="4" height="4" fill="#252427" />
-        <rect x="356" y="348" width="4" height="4" fill="#252427" />
-        <rect x="405" y="348" width="4" height="4" fill="#252427" />
-        <rect x="454" y="348" width="4" height="4" fill="#252427" />
-        <rect x="503" y="348" width="4" height="4" fill="#252427" />
-        <rect x="552" y="348" width="4" height="4" fill="#252427" />
-        <rect x="601" y="348" width="4" height="4" fill="#252427" />
-        <rect x="650" y="348" width="4" height="4" fill="#252427" />
-        <rect x="699" y="348" width="4" height="4" fill="#252427" />
-        <rect x="748" y="348" width="4" height="4" fill="#252427" />
-        <rect x="797" y="348" width="4" height="4" fill="#252427" />
-        <rect x="846" y="348" width="4" height="4" fill="#252427" />
-        <rect x="895" y="348" width="4" height="4" fill="#252427" />
-        <rect x="944" y="348" width="4" height="4" fill="#252427" />
-        <rect x="993" y="348" width="4" height="4" fill="#252427" />
-        <rect x="1042" y="348" width="4" height="4" fill="#252427" />
-        <rect x="1091" y="348" width="4" height="4" fill="#252427" />
-        <rect x="1140" y="348" width="4" height="4" fill="#252427" />
-        <rect x="1189" y="348" width="4" height="4" fill="#252427" />
-        <rect x="1238" y="348" width="4" height="4" fill="#252427" />
-        <rect x="1287" y="348" width="4" height="4" fill="#252427" />
-        <rect x="1336" y="348" width="4" height="4" fill="#252427" />
-        <rect x="1385" y="348" width="4" height="4" fill="#252427" />
-        <rect x="1434" y="348" width="4" height="4" fill="#252427" />
-        <rect x="1483" y="348" width="4" height="4" fill="#252427" />
-        <rect x="1532" y="348" width="4" height="4" fill="#252427" />
-        <rect x="1581" y="348" width="4" height="4" fill="#252427" />
-        <rect x="1630" y="348" width="4" height="4" fill="#252427" />
-        <rect x="1679" y="348" width="4" height="4" fill="#252427" />
-        <rect x="13" y="376" width="4" height="4" fill="#252427" />
-        <rect x="62" y="376" width="4" height="4" fill="#252427" />
-        <rect x="111" y="376" width="4" height="4" fill="#252427" />
-        <rect x="160" y="376" width="4" height="4" fill="#252427" />
-        <rect x="209" y="376" width="4" height="4" fill="#252427" />
-        <rect x="258" y="376" width="4" height="4" fill="#252427" />
-        <rect x="307" y="376" width="4" height="4" fill="#252427" />
-        <rect x="356" y="376" width="4" height="4" fill="#252427" />
-        <rect x="405" y="376" width="4" height="4" fill="#252427" />
-        <rect x="454" y="376" width="4" height="4" fill="#252427" />
-        <rect x="503" y="376" width="4" height="4" fill="#252427" />
-        <rect x="552" y="376" width="4" height="4" fill="#252427" />
-        <rect x="601" y="376" width="4" height="4" fill="#252427" />
-        <rect x="650" y="376" width="4" height="4" fill="#252427" />
-        <rect x="699" y="376" width="4" height="4" fill="#252427" />
-        <rect x="748" y="376" width="4" height="4" fill="#252427" />
-        <rect x="797" y="376" width="4" height="4" fill="#252427" />
-        <rect x="846" y="376" width="4" height="4" fill="#252427" />
-        <rect x="895" y="376" width="4" height="4" fill="#252427" />
-        <rect x="944" y="376" width="4" height="4" fill="#252427" />
-        <rect x="993" y="376" width="4" height="4" fill="#252427" />
-        <rect x="1042" y="376" width="4" height="4" fill="#252427" />
-        <rect x="1091" y="376" width="4" height="4" fill="#252427" />
-        <rect x="1140" y="376" width="4" height="4" fill="#252427" />
-        <rect x="1189" y="376" width="4" height="4" fill="#252427" />
-        <rect x="1238" y="376" width="4" height="4" fill="#252427" />
-        <rect x="1287" y="376" width="4" height="4" fill="#252427" />
-        <rect x="1336" y="376" width="4" height="4" fill="#252427" />
-        <rect x="1385" y="376" width="4" height="4" fill="#252427" />
-        <rect x="1434" y="376" width="4" height="4" fill="#252427" />
-        <rect x="1483" y="376" width="4" height="4" fill="#252427" />
-        <rect x="1532" y="376" width="4" height="4" fill="#252427" />
-        <rect x="1581" y="376" width="4" height="4" fill="#252427" />
-        <rect x="1630" y="376" width="4" height="4" fill="#252427" />
-        <rect x="1679" y="376" width="4" height="4" fill="#252427" />
-        <rect x="13" y="404" width="4" height="4" fill="#252427" />
-        <rect x="62" y="404" width="4" height="4" fill="#252427" />
-        <rect x="111" y="404" width="4" height="4" fill="#252427" />
-        <rect x="160" y="404" width="4" height="4" fill="#252427" />
-        <rect x="209" y="404" width="4" height="4" fill="#252427" />
-        <rect x="258" y="404" width="4" height="4" fill="#252427" />
-        <rect x="307" y="404" width="4" height="4" fill="#252427" />
-        <rect x="356" y="404" width="4" height="4" fill="#252427" />
-        <rect x="405" y="404" width="4" height="4" fill="#252427" />
-        <rect x="454" y="404" width="4" height="4" fill="#252427" />
-        <rect x="503" y="404" width="4" height="4" fill="#252427" />
-        <rect x="552" y="404" width="4" height="4" fill="#252427" />
-        <rect x="601" y="404" width="4" height="4" fill="#3D3D3F" />
-        <rect x="650" y="404" width="4" height="4" fill="#252427" />
-        <rect x="699" y="404" width="4" height="4" fill="#252427" />
-        <rect x="748" y="404" width="4" height="4" fill="#252427" />
-        <rect x="797" y="404" width="4" height="4" fill="#252427" />
-        <rect x="846" y="404" width="4" height="4" fill="#252427" />
-        <rect x="895" y="404" width="4" height="4" fill="#252427" />
-        <rect x="944" y="404" width="4" height="4" fill="#252427" />
-        <rect x="993" y="404" width="4" height="4" fill="#252427" />
-        <rect x="1042" y="404" width="4" height="4" fill="#252427" />
-        <rect x="1091" y="404" width="4" height="4" fill="#252427" />
-        <rect x="1140" y="404" width="4" height="4" fill="#252427" />
-        <rect x="1189" y="404" width="4" height="4" fill="#252427" />
-        <rect x="1238" y="404" width="4" height="4" fill="#252427" />
-        <rect x="1287" y="404" width="4" height="4" fill="#252427" />
-        <rect x="1336" y="404" width="4" height="4" fill="#252427" />
-        <rect x="1385" y="404" width="4" height="4" fill="#252427" />
-        <rect x="1434" y="404" width="4" height="4" fill="#252427" />
-        <rect x="1483" y="404" width="4" height="4" fill="#252427" />
-        <rect x="1532" y="404" width="4" height="4" fill="#252427" />
-        <rect x="1581" y="404" width="4" height="4" fill="#252427" />
-        <rect x="1630" y="404" width="4" height="4" fill="#252427" />
-        <rect x="1679" y="404" width="4" height="4" fill="#252427" />
-        <rect x="13" y="432" width="4" height="4" fill="#252427" />
-        <rect x="62" y="432" width="4" height="4" fill="#252427" />
-        <rect x="111" y="432" width="4" height="4" fill="#252427" />
-        <rect x="160" y="432" width="4" height="4" fill="#252427" />
-        <rect x="209" y="432" width="4" height="4" fill="#252427" />
-        <rect x="258" y="432" width="4" height="4" fill="#252427" />
-        <rect x="307" y="432" width="4" height="4" fill="#252427" />
-        <rect x="356" y="432" width="4" height="4" fill="#252427" />
-        <rect x="405" y="432" width="4" height="4" fill="#252427" />
-        <rect x="454" y="432" width="4" height="4" fill="#252427" />
-        <rect x="503" y="432" width="4" height="4" fill="#252427" />
-        <rect x="552" y="432" width="4" height="4" fill="#252427" />
-        <rect x="601" y="432" width="4" height="4" fill="#252427" />
-        <rect x="650" y="432" width="4" height="4" fill="#252427" />
-        <rect x="699" y="432" width="4" height="4" fill="#252427" />
-        <rect x="748" y="432" width="4" height="4" fill="#252427" />
-        <rect x="797" y="432" width="4" height="4" fill="#252427" />
-        <rect x="846" y="432" width="4" height="4" fill="#252427" />
-        <rect x="895" y="432" width="4" height="4" fill="#252427" />
-        <rect x="944" y="432" width="4" height="4" fill="#252427" />
-        <rect x="993" y="432" width="4" height="4" fill="#252427" />
-        <rect x="1042" y="432" width="4" height="4" fill="#252427" />
-        <rect x="1091" y="432" width="4" height="4" fill="#252427" />
-        <rect x="1140" y="432" width="4" height="4" fill="#252427" />
-        <rect x="1189" y="432" width="4" height="4" fill="#252427" />
-        <rect x="1238" y="432" width="4" height="4" fill="#252427" />
-        <rect x="1287" y="432" width="4" height="4" fill="#252427" />
-        <rect x="1336" y="432" width="4" height="4" fill="#252427" />
-        <rect x="1385" y="432" width="4" height="4" fill="#252427" />
-        <rect x="1434" y="432" width="4" height="4" fill="#252427" />
-        <rect x="1483" y="432" width="4" height="4" fill="#252427" />
-        <rect x="1532" y="432" width="4" height="4" fill="#252427" />
-        <rect x="1581" y="432" width="4" height="4" fill="#252427" />
-        <rect x="1630" y="432" width="4" height="4" fill="#252427" />
-        <rect x="1679" y="432" width="4" height="4" fill="#252427" />
-        <rect x="13" y="460" width="4" height="4" fill="#252427" />
-        <rect x="62" y="460" width="4" height="4" fill="#252427" />
-        <rect x="111" y="460" width="4" height="4" fill="#252427" />
-        <rect x="160" y="460" width="4" height="4" fill="#252427" />
-        <rect x="209" y="460" width="4" height="4" fill="#252427" />
-        <rect x="258" y="460" width="4" height="4" fill="#252427" />
-        <rect x="307" y="460" width="4" height="4" fill="#252427" />
-        <rect x="356" y="460" width="4" height="4" fill="#252427" />
-        <rect x="405" y="460" width="4" height="4" fill="#252427" />
-        <rect x="454" y="460" width="4" height="4" fill="#252427" />
-        <rect x="503" y="460" width="4" height="4" fill="#252427" />
-        <rect x="552" y="460" width="4" height="4" fill="#252427" />
-        <rect x="601" y="460" width="4" height="4" fill="#252427" />
-        <rect x="650" y="460" width="4" height="4" fill="#252427" />
-        <rect x="699" y="460" width="4" height="4" fill="#252427" />
-        <rect x="748" y="460" width="4" height="4" fill="#252427" />
-        <rect x="797" y="460" width="4" height="4" fill="#252427" />
-        <rect x="846" y="460" width="4" height="4" fill="#252427" />
-        <rect x="895" y="460" width="4" height="4" fill="#252427" />
-        <rect x="944" y="460" width="4" height="4" fill="#252427" />
-        <rect x="993" y="460" width="4" height="4" fill="#252427" />
-        <rect x="1042" y="460" width="4" height="4" fill="#252427" />
-        <rect x="1091" y="460" width="4" height="4" fill="#252427" />
-        <rect x="1140" y="460" width="4" height="4" fill="#252427" />
-        <rect x="1189" y="460" width="4" height="4" fill="#252427" />
-        <rect x="1238" y="460" width="4" height="4" fill="#252427" />
-        <rect x="1287" y="460" width="4" height="4" fill="#252427" />
-        <rect x="1336" y="460" width="4" height="4" fill="#252427" />
-        <rect x="1385" y="460" width="4" height="4" fill="#252427" />
-        <rect x="1434" y="460" width="4" height="4" fill="#252427" />
-        <rect x="1483" y="460" width="4" height="4" fill="#252427" />
-        <rect x="1532" y="460" width="4" height="4" fill="#252427" />
-        <rect x="1581" y="460" width="4" height="4" fill="#252427" />
-        <rect x="1630" y="460" width="4" height="4" fill="#252427" />
-        <rect x="1679" y="460" width="4" height="4" fill="#252427" />
-        <rect x="13" y="488" width="4" height="4" fill="#252427" />
-        <rect x="62" y="488" width="4" height="4" fill="#252427" />
-        <rect x="111" y="488" width="4" height="4" fill="#252427" />
-        <rect x="160" y="488" width="4" height="4" fill="#252427" />
-        <rect x="209" y="488" width="4" height="4" fill="#252427" />
-        <rect x="258" y="488" width="4" height="4" fill="#252427" />
-        <rect x="307" y="488" width="4" height="4" fill="#252427" />
-        <rect x="356" y="488" width="4" height="4" fill="#252427" />
-        <rect x="405" y="488" width="4" height="4" fill="#252427" />
-        <rect x="454" y="488" width="4" height="4" fill="#252427" />
-        <rect x="503" y="488" width="4" height="4" fill="#252427" />
-        <rect x="552" y="488" width="4" height="4" fill="#252427" />
-        <rect x="601" y="488" width="4" height="4" fill="#252427" />
-        <rect x="650" y="488" width="4" height="4" fill="#252427" />
-        <rect x="699" y="488" width="4" height="4" fill="#252427" />
-        <rect x="748" y="488" width="4" height="4" fill="#252427" />
-        <rect x="797" y="488" width="4" height="4" fill="#252427" />
-        <rect x="846" y="488" width="4" height="4" fill="#252427" />
-        <rect x="895" y="488" width="4" height="4" fill="#252427" />
-        <rect x="944" y="488" width="4" height="4" fill="#252427" />
-        <rect x="993" y="488" width="4" height="4" fill="#252427" />
-        <rect x="1042" y="488" width="4" height="4" fill="#252427" />
-        <rect x="1091" y="488" width="4" height="4" fill="#252427" />
-        <rect x="1140" y="488" width="4" height="4" fill="#252427" />
-        <rect x="1189" y="488" width="4" height="4" fill="#252427" />
-        <rect x="1238" y="488" width="4" height="4" fill="#252427" />
-        <rect x="1287" y="488" width="4" height="4" fill="#252427" />
-        <rect x="1336" y="488" width="4" height="4" fill="#252427" />
-        <rect x="1385" y="488" width="4" height="4" fill="#252427" />
-        <rect x="1434" y="488" width="4" height="4" fill="#252427" />
-        <rect x="1483" y="488" width="4" height="4" fill="#252427" />
-        <rect x="1532" y="488" width="4" height="4" fill="#252427" />
-        <rect x="1581" y="488" width="4" height="4" fill="#252427" />
-        <rect x="1630" y="488" width="4" height="4" fill="#252427" />
-        <rect x="1679" y="488" width="4" height="4" fill="#252427" />
-        <rect x="13" y="516" width="4" height="4" fill="#252427" />
-        <rect x="62" y="516" width="4" height="4" fill="#252427" />
-        <rect x="111" y="516" width="4" height="4" fill="#252427" />
-        <rect x="160" y="516" width="4" height="4" fill="#252427" />
-        <rect x="209" y="516" width="4" height="4" fill="#252427" />
-        <rect x="258" y="516" width="4" height="4" fill="#252427" />
-        <rect x="307" y="516" width="4" height="4" fill="#252427" />
-        <rect x="356" y="516" width="4" height="4" fill="#252427" />
-        <rect x="405" y="516" width="4" height="4" fill="#252427" />
-        <rect x="454" y="516" width="4" height="4" fill="#252427" />
-        <rect x="503" y="516" width="4" height="4" fill="#252427" />
-        <rect x="552" y="516" width="4" height="4" fill="#252427" />
-        <rect x="601" y="516" width="4" height="4" fill="#252427" />
-        <rect x="650" y="516" width="4" height="4" fill="#252427" />
-        <rect x="699" y="516" width="4" height="4" fill="#252427" />
-        <rect x="748" y="516" width="4" height="4" fill="#252427" />
-        <rect x="797" y="516" width="4" height="4" fill="#252427" />
-        <rect x="846" y="516" width="4" height="4" fill="#252427" />
-        <rect x="895" y="516" width="4" height="4" fill="#252427" />
-        <rect x="944" y="516" width="4" height="4" fill="#252427" />
-        <rect x="993" y="516" width="4" height="4" fill="#252427" />
-        <rect x="1042" y="516" width="4" height="4" fill="#252427" />
-        <rect x="1091" y="516" width="4" height="4" fill="#252427" />
-        <rect x="1140" y="516" width="4" height="4" fill="#252427" />
-        <rect x="1189" y="516" width="4" height="4" fill="#252427" />
-        <rect x="1238" y="516" width="4" height="4" fill="#252427" />
-        <rect x="1287" y="516" width="4" height="4" fill="#252427" />
-        <rect x="1336" y="516" width="4" height="4" fill="#252427" />
-        <rect x="1385" y="516" width="4" height="4" fill="#252427" />
-        <rect x="1434" y="516" width="4" height="4" fill="#252427" />
-        <rect x="1483" y="516" width="4" height="4" fill="#252427" />
-        <rect x="1532" y="516" width="4" height="4" fill="#252427" />
-        <rect x="1581" y="516" width="4" height="4" fill="#252427" />
-        <rect x="1630" y="516" width="4" height="4" fill="#252427" />
-        <rect x="1679" y="516" width="4" height="4" fill="#252427" />
-        <rect x="13" y="544" width="4" height="4" fill="#252427" />
-        <rect x="62" y="544" width="4" height="4" fill="#252427" />
-        <rect x="111" y="544" width="4" height="4" fill="#252427" />
-        <rect x="160" y="544" width="4" height="4" fill="#252427" />
-        <rect x="209" y="544" width="4" height="4" fill="#252427" />
-        <rect x="258" y="544" width="4" height="4" fill="#252427" />
-        <rect x="307" y="544" width="4" height="4" fill="#252427" />
-        <rect x="356" y="544" width="4" height="4" fill="#252427" />
-        <rect x="405" y="544" width="4" height="4" fill="#252427" />
-        <rect x="454" y="544" width="4" height="4" fill="#252427" />
-        <rect x="503" y="544" width="4" height="4" fill="#252427" />
-        <rect x="552" y="544" width="4" height="4" fill="#252427" />
-        <rect x="601" y="544" width="4" height="4" fill="#252427" />
-        <rect x="650" y="544" width="4" height="4" fill="#252427" />
-        <rect x="699" y="544" width="4" height="4" fill="#252427" />
-        <rect x="748" y="544" width="4" height="4" fill="#252427" />
-        <rect x="797" y="544" width="4" height="4" fill="#252427" />
-        <rect x="846" y="544" width="4" height="4" fill="#252427" />
-        <rect x="895" y="544" width="4" height="4" fill="#252427" />
-        <rect x="944" y="544" width="4" height="4" fill="#252427" />
-        <rect x="993" y="544" width="4" height="4" fill="#252427" />
-        <rect x="1042" y="544" width="4" height="4" fill="#252427" />
-        <rect x="1091" y="544" width="4" height="4" fill="#252427" />
-        <rect x="1140" y="544" width="4" height="4" fill="#252427" />
-        <rect x="1189" y="544" width="4" height="4" fill="#252427" />
-        <rect x="1238" y="544" width="4" height="4" fill="#252427" />
-        <rect x="1287" y="544" width="4" height="4" fill="#252427" />
-        <rect x="1336" y="544" width="4" height="4" fill="#252427" />
-        <rect x="1385" y="544" width="4" height="4" fill="#252427" />
-        <rect x="1434" y="544" width="4" height="4" fill="#252427" />
-        <rect x="1483" y="544" width="4" height="4" fill="#252427" />
-        <rect x="1532" y="544" width="4" height="4" fill="#252427" />
-        <rect x="1581" y="544" width="4" height="4" fill="#252427" />
-        <rect x="1630" y="544" width="4" height="4" fill="#252427" />
-        <rect x="1679" y="544" width="4" height="4" fill="#252427" />
-        <rect
-          x="-2"
-          y="436"
-          width="1685"
-          height="132"
-          fill="url(#paint0_linear_2176_6030)"
-        />
-        <g opacity="0.7" filter="url(#filter0_f_2176_6030)">
-          <ellipse
-            cx="3.18066"
-            cy="951.436"
-            rx="709.732"
-            ry="620.624"
-            transform="rotate(-152.433 3.18066 951.436)"
-            fill="url(#paint1_linear_2176_6030)"
-          />
-        </g>
-      </g>
-      <g clip-path="url(#clip1_2176_6030)">
-        <rect
-          width="2169"
+          width="1610"
           height="33"
-          transform="translate(-503.006 570)"
+          transform="translate(52 608)"
           fill="#0D0C0F"
         />
         <rect
-          x="559.863"
-          y="2020.59"
+          x="555.869"
+          y="2058.59"
           width="2006"
           height="4"
-          transform="rotate(-135 559.863 2020.59)"
+          transform="rotate(-135 555.869 2058.59)"
           fill="#272629"
         />
         <rect
-          x="565.52"
-          y="2014.93"
+          x="561.526"
+          y="2052.93"
           width="2006"
           height="4"
-          transform="rotate(-135 565.52 2014.93)"
+          transform="rotate(-135 561.526 2052.93)"
           fill="#272629"
         />
         <rect
-          x="571.178"
-          y="2009.27"
+          x="567.183"
+          y="2047.27"
           width="2006"
           height="4"
-          transform="rotate(-135 571.178 2009.27)"
+          transform="rotate(-135 567.183 2047.27)"
           fill="#272629"
         />
         <rect
-          x="576.834"
-          y="2003.62"
+          x="572.84"
+          y="2041.62"
           width="2006"
           height="4"
-          transform="rotate(-135 576.834 2003.62)"
+          transform="rotate(-135 572.84 2041.62)"
           fill="#272629"
         />
         <rect
-          x="582.49"
-          y="1997.96"
+          x="578.497"
+          y="2035.96"
           width="2006"
           height="4"
-          transform="rotate(-135 582.49 1997.96)"
+          transform="rotate(-135 578.497 2035.96)"
           fill="#272629"
         />
         <rect
-          x="588.148"
-          y="1992.3"
+          x="584.153"
+          y="2030.3"
           width="2006"
           height="4"
-          transform="rotate(-135 588.148 1992.3)"
+          transform="rotate(-135 584.153 2030.3)"
           fill="#272629"
         />
         <rect
-          x="593.805"
-          y="1986.65"
+          x="589.811"
+          y="2024.65"
           width="2006"
           height="4"
-          transform="rotate(-135 593.805 1986.65)"
+          transform="rotate(-135 589.811 2024.65)"
           fill="#272629"
         />
         <rect
-          x="599.461"
-          y="1980.99"
+          x="595.467"
+          y="2018.99"
           width="2006"
           height="4"
-          transform="rotate(-135 599.461 1980.99)"
+          transform="rotate(-135 595.467 2018.99)"
           fill="#272629"
         />
         <rect
-          x="605.119"
-          y="1975.33"
+          x="601.124"
+          y="2013.33"
           width="2006"
           height="4"
-          transform="rotate(-135 605.119 1975.33)"
+          transform="rotate(-135 601.124 2013.33)"
           fill="#272629"
         />
         <rect
-          x="610.775"
-          y="1969.68"
+          x="606.781"
+          y="2007.68"
           width="2006"
           height="4"
-          transform="rotate(-135 610.775 1969.68)"
+          transform="rotate(-135 606.781 2007.68)"
           fill="#272629"
         />
         <rect
-          x="616.432"
-          y="1964.02"
+          x="612.438"
+          y="2002.02"
           width="2006"
           height="4"
-          transform="rotate(-135 616.432 1964.02)"
+          transform="rotate(-135 612.438 2002.02)"
           fill="#272629"
         />
         <rect
-          x="622.088"
-          y="1958.36"
+          x="618.095"
+          y="1996.36"
           width="2006"
           height="4"
-          transform="rotate(-135 622.088 1958.36)"
+          transform="rotate(-135 618.095 1996.36)"
           fill="#272629"
         />
         <rect
-          x="627.746"
-          y="1952.71"
+          x="623.752"
+          y="1990.71"
           width="2006"
           height="4"
-          transform="rotate(-135 627.746 1952.71)"
+          transform="rotate(-135 623.752 1990.71)"
           fill="#272629"
         />
         <rect
-          x="633.402"
-          y="1947.05"
+          x="629.408"
+          y="1985.05"
           width="2006"
           height="4"
-          transform="rotate(-135 633.402 1947.05)"
+          transform="rotate(-135 629.408 1985.05)"
           fill="#272629"
         />
         <rect
-          x="639.059"
-          y="1941.39"
+          x="635.065"
+          y="1979.39"
           width="2006"
           height="4"
-          transform="rotate(-135 639.059 1941.39)"
+          transform="rotate(-135 635.065 1979.39)"
           fill="#272629"
         />
         <rect
-          x="644.717"
-          y="1935.73"
+          x="640.722"
+          y="1973.74"
           width="2006"
           height="4"
-          transform="rotate(-135 644.717 1935.73)"
+          transform="rotate(-135 640.722 1973.74)"
           fill="#272629"
         />
         <rect
-          x="650.373"
-          y="1930.08"
+          x="646.379"
+          y="1968.08"
           width="2006"
           height="4"
-          transform="rotate(-135 650.373 1930.08)"
+          transform="rotate(-135 646.379 1968.08)"
           fill="#272629"
         />
         <rect
-          x="656.029"
-          y="1924.42"
+          x="652.036"
+          y="1962.42"
           width="2006"
           height="4"
-          transform="rotate(-135 656.029 1924.42)"
+          transform="rotate(-135 652.036 1962.42)"
           fill="#272629"
         />
         <rect
-          x="661.688"
-          y="1918.76"
+          x="657.692"
+          y="1956.76"
           width="2006"
           height="4"
-          transform="rotate(-135 661.688 1918.76)"
+          transform="rotate(-135 657.692 1956.76)"
           fill="#272629"
         />
         <rect
-          x="667.344"
-          y="1913.11"
+          x="663.35"
+          y="1951.11"
           width="2006"
           height="4"
-          transform="rotate(-135 667.344 1913.11)"
+          transform="rotate(-135 663.35 1951.11)"
           fill="#272629"
         />
         <rect
-          x="673"
-          y="1907.45"
+          x="669.006"
+          y="1945.45"
           width="2006"
           height="4"
-          transform="rotate(-135 673 1907.45)"
+          transform="rotate(-135 669.006 1945.45)"
           fill="#272629"
         />
         <rect
-          x="678.658"
-          y="1901.79"
+          x="674.663"
+          y="1939.79"
           width="2006"
           height="4"
-          transform="rotate(-135 678.658 1901.79)"
+          transform="rotate(-135 674.663 1939.79)"
           fill="#272629"
         />
         <rect
-          x="684.314"
-          y="1896.14"
+          x="680.32"
+          y="1934.14"
           width="2006"
           height="4"
-          transform="rotate(-135 684.314 1896.14)"
+          transform="rotate(-135 680.32 1934.14)"
           fill="#272629"
         />
         <rect
-          x="689.971"
-          y="1890.48"
+          x="685.977"
+          y="1928.48"
           width="2006"
           height="4"
-          transform="rotate(-135 689.971 1890.48)"
+          transform="rotate(-135 685.977 1928.48)"
           fill="#272629"
         />
         <rect
-          x="695.627"
-          y="1884.82"
+          x="691.634"
+          y="1922.82"
           width="2006"
           height="4"
-          transform="rotate(-135 695.627 1884.82)"
+          transform="rotate(-135 691.634 1922.82)"
           fill="#272629"
         />
         <rect
-          x="701.285"
-          y="1879.17"
+          x="697.291"
+          y="1917.17"
           width="2006"
           height="4"
-          transform="rotate(-135 701.285 1879.17)"
+          transform="rotate(-135 697.291 1917.17)"
           fill="#272629"
         />
         <rect
-          x="706.941"
-          y="1873.51"
+          x="702.947"
+          y="1911.51"
           width="2006"
           height="4"
-          transform="rotate(-135 706.941 1873.51)"
+          transform="rotate(-135 702.947 1911.51)"
           fill="#272629"
         />
         <rect
-          x="712.598"
-          y="1867.85"
+          x="708.604"
+          y="1905.85"
           width="2006"
           height="4"
-          transform="rotate(-135 712.598 1867.85)"
+          transform="rotate(-135 708.604 1905.85)"
           fill="#272629"
         />
         <rect
-          x="718.256"
-          y="1862.2"
+          x="714.261"
+          y="1900.2"
           width="2006"
           height="4"
-          transform="rotate(-135 718.256 1862.2)"
+          transform="rotate(-135 714.261 1900.2)"
           fill="#272629"
         />
         <rect
-          x="723.912"
-          y="1856.54"
+          x="719.918"
+          y="1894.54"
           width="2006"
           height="4"
-          transform="rotate(-135 723.912 1856.54)"
+          transform="rotate(-135 719.918 1894.54)"
           fill="#272629"
         />
         <rect
-          x="729.568"
-          y="1850.88"
+          x="725.575"
+          y="1888.88"
           width="2006"
           height="4"
-          transform="rotate(-135 729.568 1850.88)"
+          transform="rotate(-135 725.575 1888.88)"
           fill="#272629"
         />
         <rect
-          x="735.227"
-          y="1845.23"
+          x="731.231"
+          y="1883.23"
           width="2006"
           height="4"
-          transform="rotate(-135 735.227 1845.23)"
+          transform="rotate(-135 731.231 1883.23)"
           fill="#272629"
         />
         <rect
-          x="740.883"
-          y="1839.57"
+          x="736.889"
+          y="1877.57"
           width="2006"
           height="4"
-          transform="rotate(-135 740.883 1839.57)"
+          transform="rotate(-135 736.889 1877.57)"
           fill="#272629"
         />
         <rect
-          x="746.539"
-          y="1833.91"
+          x="742.546"
+          y="1871.91"
           width="2006"
           height="4"
-          transform="rotate(-135 746.539 1833.91)"
+          transform="rotate(-135 742.546 1871.91)"
           fill="#272629"
         />
         <rect
-          x="752.197"
-          y="1828.25"
+          x="748.202"
+          y="1866.25"
           width="2006"
           height="4"
-          transform="rotate(-135 752.197 1828.25)"
+          transform="rotate(-135 748.202 1866.25)"
           fill="#272629"
         />
         <rect
-          x="757.854"
-          y="1822.6"
+          x="753.859"
+          y="1860.6"
           width="2006"
           height="4"
-          transform="rotate(-135 757.854 1822.6)"
+          transform="rotate(-135 753.859 1860.6)"
           fill="#272629"
         />
         <rect
-          x="763.51"
-          y="1816.94"
+          x="759.516"
+          y="1854.94"
           width="2006"
           height="4"
-          transform="rotate(-135 763.51 1816.94)"
+          transform="rotate(-135 759.516 1854.94)"
           fill="#272629"
         />
         <rect
-          x="769.166"
-          y="1811.28"
+          x="765.173"
+          y="1849.28"
           width="2006"
           height="4"
-          transform="rotate(-135 769.166 1811.28)"
+          transform="rotate(-135 765.173 1849.28)"
           fill="#272629"
         />
         <rect
-          x="774.824"
-          y="1805.63"
+          x="770.83"
+          y="1843.63"
           width="2006"
           height="4"
-          transform="rotate(-135 774.824 1805.63)"
+          transform="rotate(-135 770.83 1843.63)"
           fill="#272629"
         />
         <rect
-          x="780.48"
-          y="1799.97"
+          x="776.486"
+          y="1837.97"
           width="2006"
           height="4"
-          transform="rotate(-135 780.48 1799.97)"
+          transform="rotate(-135 776.486 1837.97)"
           fill="#272629"
         />
         <rect
-          x="786.137"
-          y="1794.31"
+          x="782.144"
+          y="1832.31"
           width="2006"
           height="4"
-          transform="rotate(-135 786.137 1794.31)"
+          transform="rotate(-135 782.144 1832.31)"
           fill="#272629"
         />
         <rect
-          x="791.795"
-          y="1788.66"
+          x="787.8"
+          y="1826.66"
           width="2006"
           height="4"
-          transform="rotate(-135 791.795 1788.66)"
+          transform="rotate(-135 787.8 1826.66)"
           fill="#272629"
         />
         <rect
-          x="797.451"
-          y="1783"
+          x="793.457"
+          y="1821"
           width="2006"
           height="4"
-          transform="rotate(-135 797.451 1783)"
+          transform="rotate(-135 793.457 1821)"
           fill="#272629"
         />
         <rect
-          x="803.107"
-          y="1777.34"
+          x="799.114"
+          y="1815.34"
           width="2006"
           height="4"
-          transform="rotate(-135 803.107 1777.34)"
+          transform="rotate(-135 799.114 1815.34)"
           fill="#272629"
         />
         <rect
-          x="808.766"
-          y="1771.69"
+          x="804.771"
+          y="1809.69"
           width="2006"
           height="4"
-          transform="rotate(-135 808.766 1771.69)"
+          transform="rotate(-135 804.771 1809.69)"
           fill="#272629"
         />
         <rect
-          x="814.422"
-          y="1766.03"
+          x="810.428"
+          y="1804.03"
           width="2006"
           height="4"
-          transform="rotate(-135 814.422 1766.03)"
+          transform="rotate(-135 810.428 1804.03)"
           fill="#272629"
         />
         <rect
-          x="820.078"
-          y="1760.37"
+          x="816.085"
+          y="1798.37"
           width="2006"
           height="4"
-          transform="rotate(-135 820.078 1760.37)"
+          transform="rotate(-135 816.085 1798.37)"
           fill="#272629"
         />
         <rect
-          x="825.736"
-          y="1754.72"
+          x="821.741"
+          y="1792.72"
           width="2006"
           height="4"
-          transform="rotate(-135 825.736 1754.72)"
+          transform="rotate(-135 821.741 1792.72)"
           fill="#272629"
         />
         <rect
-          x="831.393"
-          y="1749.06"
+          x="827.398"
+          y="1787.06"
           width="2006"
           height="4"
-          transform="rotate(-135 831.393 1749.06)"
+          transform="rotate(-135 827.398 1787.06)"
           fill="#272629"
         />
         <rect
-          x="837.049"
-          y="1743.4"
+          x="833.055"
+          y="1781.4"
           width="2006"
           height="4"
-          transform="rotate(-135 837.049 1743.4)"
+          transform="rotate(-135 833.055 1781.4)"
           fill="#272629"
         />
         <rect
-          x="842.707"
-          y="1737.74"
+          x="838.712"
+          y="1775.75"
           width="2006"
           height="4"
-          transform="rotate(-135 842.707 1737.74)"
+          transform="rotate(-135 838.712 1775.75)"
           fill="#272629"
         />
         <rect
-          x="848.363"
-          y="1732.09"
+          x="844.369"
+          y="1770.09"
           width="2006"
           height="4"
-          transform="rotate(-135 848.363 1732.09)"
+          transform="rotate(-135 844.369 1770.09)"
           fill="#272629"
         />
         <rect
-          x="854.02"
-          y="1726.43"
+          x="850.025"
+          y="1764.43"
           width="2006"
           height="4"
-          transform="rotate(-135 854.02 1726.43)"
+          transform="rotate(-135 850.025 1764.43)"
           fill="#272629"
         />
         <rect
-          x="859.676"
-          y="1720.77"
+          x="855.683"
+          y="1758.77"
           width="2006"
           height="4"
-          transform="rotate(-135 859.676 1720.77)"
+          transform="rotate(-135 855.683 1758.77)"
           fill="#272629"
         />
         <rect
-          x="865.334"
-          y="1715.12"
+          x="861.339"
+          y="1753.12"
           width="2006"
           height="4"
-          transform="rotate(-135 865.334 1715.12)"
+          transform="rotate(-135 861.339 1753.12)"
           fill="#272629"
         />
         <rect
-          x="870.99"
-          y="1709.46"
+          x="866.996"
+          y="1747.46"
           width="2006"
           height="4"
-          transform="rotate(-135 870.99 1709.46)"
+          transform="rotate(-135 866.996 1747.46)"
           fill="#272629"
         />
         <rect
-          x="876.646"
-          y="1703.8"
+          x="872.653"
+          y="1741.8"
           width="2006"
           height="4"
-          transform="rotate(-135 876.646 1703.8)"
+          transform="rotate(-135 872.653 1741.8)"
           fill="#272629"
         />
         <rect
-          x="882.305"
-          y="1698.15"
+          x="878.31"
+          y="1736.15"
           width="2006"
           height="4"
-          transform="rotate(-135 882.305 1698.15)"
+          transform="rotate(-135 878.31 1736.15)"
           fill="#272629"
         />
         <rect
-          x="887.961"
-          y="1692.49"
+          x="883.967"
+          y="1730.49"
           width="2006"
           height="4"
-          transform="rotate(-135 887.961 1692.49)"
+          transform="rotate(-135 883.967 1730.49)"
           fill="#272629"
         />
         <rect
-          x="893.617"
-          y="1686.83"
+          x="889.624"
+          y="1724.83"
           width="2006"
           height="4"
-          transform="rotate(-135 893.617 1686.83)"
+          transform="rotate(-135 889.624 1724.83)"
           fill="#272629"
         />
         <rect
-          x="899.275"
-          y="1681.18"
+          x="895.28"
+          y="1719.18"
           width="2006"
           height="4"
-          transform="rotate(-135 899.275 1681.18)"
+          transform="rotate(-135 895.28 1719.18)"
           fill="#272629"
         />
         <rect
-          x="904.932"
-          y="1675.52"
+          x="900.938"
+          y="1713.52"
           width="2006"
           height="4"
-          transform="rotate(-135 904.932 1675.52)"
+          transform="rotate(-135 900.938 1713.52)"
           fill="#272629"
         />
         <rect
-          x="910.588"
-          y="1669.86"
+          x="906.594"
+          y="1707.86"
           width="2006"
           height="4"
-          transform="rotate(-135 910.588 1669.86)"
+          transform="rotate(-135 906.594 1707.86)"
           fill="#272629"
         />
         <rect
-          x="916.246"
-          y="1664.21"
+          x="912.251"
+          y="1702.21"
           width="2006"
           height="4"
-          transform="rotate(-135 916.246 1664.21)"
+          transform="rotate(-135 912.251 1702.21)"
           fill="#272629"
         />
         <rect
-          x="921.902"
-          y="1658.55"
+          x="917.908"
+          y="1696.55"
           width="2006"
           height="4"
-          transform="rotate(-135 921.902 1658.55)"
+          transform="rotate(-135 917.908 1696.55)"
           fill="#272629"
         />
         <rect
-          x="927.559"
-          y="1652.89"
+          x="923.564"
+          y="1690.89"
           width="2006"
           height="4"
-          transform="rotate(-135 927.559 1652.89)"
+          transform="rotate(-135 923.564 1690.89)"
           fill="#272629"
         />
         <rect
-          x="933.215"
-          y="1647.24"
+          x="929.222"
+          y="1685.24"
           width="2006"
           height="4"
-          transform="rotate(-135 933.215 1647.24)"
+          transform="rotate(-135 929.222 1685.24)"
           fill="#272629"
         />
         <rect
-          x="938.873"
-          y="1641.58"
+          x="934.879"
+          y="1679.58"
           width="2006"
           height="4"
-          transform="rotate(-135 938.873 1641.58)"
+          transform="rotate(-135 934.879 1679.58)"
           fill="#272629"
         />
         <rect
-          x="944.529"
-          y="1635.92"
+          x="940.535"
+          y="1673.92"
           width="2006"
           height="4"
-          transform="rotate(-135 944.529 1635.92)"
+          transform="rotate(-135 940.535 1673.92)"
           fill="#272629"
         />
         <rect
-          x="950.186"
-          y="1630.26"
+          x="946.192"
+          y="1668.27"
           width="2006"
           height="4"
-          transform="rotate(-135 950.186 1630.26)"
+          transform="rotate(-135 946.192 1668.27)"
           fill="#272629"
         />
         <rect
-          x="955.844"
-          y="1624.61"
+          x="951.849"
+          y="1662.61"
           width="2006"
           height="4"
-          transform="rotate(-135 955.844 1624.61)"
+          transform="rotate(-135 951.849 1662.61)"
           fill="#272629"
         />
         <rect
-          x="961.5"
-          y="1618.95"
+          x="957.506"
+          y="1656.95"
           width="2006"
           height="4"
-          transform="rotate(-135 961.5 1618.95)"
+          transform="rotate(-135 957.506 1656.95)"
           fill="#272629"
         />
         <rect
-          x="967.156"
-          y="1613.29"
+          x="963.163"
+          y="1651.29"
           width="2006"
           height="4"
-          transform="rotate(-135 967.156 1613.29)"
+          transform="rotate(-135 963.163 1651.29)"
           fill="#272629"
         />
         <rect
-          x="972.814"
-          y="1607.64"
+          x="968.819"
+          y="1645.64"
           width="2006"
           height="4"
-          transform="rotate(-135 972.814 1607.64)"
+          transform="rotate(-135 968.819 1645.64)"
           fill="#272629"
         />
         <rect
-          x="978.471"
-          y="1601.98"
+          x="974.477"
+          y="1639.98"
           width="2006"
           height="4"
-          transform="rotate(-135 978.471 1601.98)"
+          transform="rotate(-135 974.477 1639.98)"
           fill="#272629"
         />
         <rect
-          x="984.127"
-          y="1596.32"
+          x="980.133"
+          y="1634.32"
           width="2006"
           height="4"
-          transform="rotate(-135 984.127 1596.32)"
+          transform="rotate(-135 980.133 1634.32)"
           fill="#272629"
         />
         <rect
-          x="989.785"
-          y="1590.67"
+          x="985.79"
+          y="1628.67"
           width="2006"
           height="4"
-          transform="rotate(-135 989.785 1590.67)"
+          transform="rotate(-135 985.79 1628.67)"
           fill="#272629"
         />
         <rect
-          x="995.441"
-          y="1585.01"
+          x="991.447"
+          y="1623.01"
           width="2006"
           height="4"
-          transform="rotate(-135 995.441 1585.01)"
+          transform="rotate(-135 991.447 1623.01)"
           fill="#272629"
         />
         <rect
-          x="1001.1"
-          y="1579.35"
+          x="997.104"
+          y="1617.35"
           width="2006"
           height="4"
-          transform="rotate(-135 1001.1 1579.35)"
+          transform="rotate(-135 997.104 1617.35)"
           fill="#272629"
         />
         <rect
-          x="1006.75"
-          y="1573.7"
+          x="1002.76"
+          y="1611.7"
           width="2006"
           height="4"
-          transform="rotate(-135 1006.75 1573.7)"
+          transform="rotate(-135 1002.76 1611.7)"
           fill="#272629"
         />
         <rect
-          x="1012.41"
-          y="1568.04"
+          x="1008.42"
+          y="1606.04"
           width="2006"
           height="4"
-          transform="rotate(-135 1012.41 1568.04)"
+          transform="rotate(-135 1008.42 1606.04)"
           fill="#272629"
         />
         <rect
-          x="1018.07"
-          y="1562.38"
+          x="1014.07"
+          y="1600.38"
           width="2006"
           height="4"
-          transform="rotate(-135 1018.07 1562.38)"
+          transform="rotate(-135 1014.07 1600.38)"
           fill="#272629"
         />
         <rect
-          x="1023.72"
-          y="1556.73"
+          x="1019.73"
+          y="1594.73"
           width="2006"
           height="4"
-          transform="rotate(-135 1023.72 1556.73)"
+          transform="rotate(-135 1019.73 1594.73)"
           fill="#272629"
         />
         <rect
-          x="1029.38"
-          y="1551.07"
+          x="1025.39"
+          y="1589.07"
           width="2006"
           height="4"
-          transform="rotate(-135 1029.38 1551.07)"
+          transform="rotate(-135 1025.39 1589.07)"
           fill="#272629"
         />
         <rect
-          x="1035.04"
-          y="1545.41"
+          x="1031.04"
+          y="1583.41"
           width="2006"
           height="4"
-          transform="rotate(-135 1035.04 1545.41)"
+          transform="rotate(-135 1031.04 1583.41)"
           fill="#272629"
         />
         <rect
-          x="1040.7"
-          y="1539.75"
+          x="1036.7"
+          y="1577.76"
           width="2006"
           height="4"
-          transform="rotate(-135 1040.7 1539.75)"
+          transform="rotate(-135 1036.7 1577.76)"
           fill="#272629"
         />
         <rect
-          x="1046.35"
-          y="1534.1"
+          x="1042.36"
+          y="1572.1"
           width="2006"
           height="4"
-          transform="rotate(-135 1046.35 1534.1)"
+          transform="rotate(-135 1042.36 1572.1)"
           fill="#272629"
         />
         <rect
-          x="1052.01"
-          y="1528.44"
+          x="1048.02"
+          y="1566.44"
           width="2006"
           height="4"
-          transform="rotate(-135 1052.01 1528.44)"
+          transform="rotate(-135 1048.02 1566.44)"
           fill="#272629"
         />
         <rect
-          x="1057.67"
-          y="1522.78"
+          x="1053.67"
+          y="1560.78"
           width="2006"
           height="4"
-          transform="rotate(-135 1057.67 1522.78)"
+          transform="rotate(-135 1053.67 1560.78)"
           fill="#272629"
         />
         <rect
-          x="1063.32"
-          y="1517.13"
+          x="1059.33"
+          y="1555.13"
           width="2006"
           height="4"
-          transform="rotate(-135 1063.32 1517.13)"
+          transform="rotate(-135 1059.33 1555.13)"
           fill="#272629"
         />
         <rect
-          x="1068.98"
-          y="1511.47"
+          x="1064.99"
+          y="1549.47"
           width="2006"
           height="4"
-          transform="rotate(-135 1068.98 1511.47)"
+          transform="rotate(-135 1064.99 1549.47)"
           fill="#272629"
         />
         <rect
-          x="1074.64"
-          y="1505.81"
+          x="1070.64"
+          y="1543.81"
           width="2006"
           height="4"
-          transform="rotate(-135 1074.64 1505.81)"
+          transform="rotate(-135 1070.64 1543.81)"
           fill="#272629"
         />
         <rect
-          x="1080.29"
-          y="1500.16"
+          x="1076.3"
+          y="1538.16"
           width="2006"
           height="4"
-          transform="rotate(-135 1080.29 1500.16)"
+          transform="rotate(-135 1076.3 1538.16)"
           fill="#272629"
         />
         <rect
-          x="1085.95"
-          y="1494.5"
+          x="1081.96"
+          y="1532.5"
           width="2006"
           height="4"
-          transform="rotate(-135 1085.95 1494.5)"
+          transform="rotate(-135 1081.96 1532.5)"
           fill="#272629"
         />
         <rect
-          x="1091.61"
-          y="1488.84"
+          x="1087.61"
+          y="1526.84"
           width="2006"
           height="4"
-          transform="rotate(-135 1091.61 1488.84)"
+          transform="rotate(-135 1087.61 1526.84)"
           fill="#272629"
         />
         <rect
-          x="1097.26"
-          y="1483.19"
+          x="1093.27"
+          y="1521.19"
           width="2006"
           height="4"
-          transform="rotate(-135 1097.26 1483.19)"
+          transform="rotate(-135 1093.27 1521.19)"
           fill="#272629"
         />
         <rect
-          x="1102.92"
-          y="1477.53"
+          x="1098.93"
+          y="1515.53"
           width="2006"
           height="4"
-          transform="rotate(-135 1102.92 1477.53)"
+          transform="rotate(-135 1098.93 1515.53)"
           fill="#272629"
         />
         <rect
-          x="1108.58"
-          y="1471.87"
+          x="1104.58"
+          y="1509.87"
           width="2006"
           height="4"
-          transform="rotate(-135 1108.58 1471.87)"
+          transform="rotate(-135 1104.58 1509.87)"
           fill="#272629"
         />
         <rect
-          x="1114.23"
-          y="1466.22"
+          x="1110.24"
+          y="1504.22"
           width="2006"
           height="4"
-          transform="rotate(-135 1114.23 1466.22)"
+          transform="rotate(-135 1110.24 1504.22)"
           fill="#272629"
         />
         <rect
-          x="1119.89"
-          y="1460.56"
+          x="1115.9"
+          y="1498.56"
           width="2006"
           height="4"
-          transform="rotate(-135 1119.89 1460.56)"
+          transform="rotate(-135 1115.9 1498.56)"
           fill="#272629"
         />
         <rect
-          x="1125.55"
-          y="1454.9"
+          x="1121.55"
+          y="1492.9"
           width="2006"
           height="4"
-          transform="rotate(-135 1125.55 1454.9)"
+          transform="rotate(-135 1121.55 1492.9)"
           fill="#272629"
         />
         <rect
-          x="1131.21"
-          y="1449.25"
+          x="1127.21"
+          y="1487.25"
           width="2006"
           height="4"
-          transform="rotate(-135 1131.21 1449.25)"
+          transform="rotate(-135 1127.21 1487.25)"
           fill="#272629"
         />
         <rect
-          x="1136.86"
-          y="1443.59"
+          x="1132.87"
+          y="1481.59"
           width="2006"
           height="4"
-          transform="rotate(-135 1136.86 1443.59)"
+          transform="rotate(-135 1132.87 1481.59)"
           fill="#272629"
         />
         <rect
-          x="1142.52"
-          y="1437.93"
+          x="1138.53"
+          y="1475.93"
           width="2006"
           height="4"
-          transform="rotate(-135 1142.52 1437.93)"
+          transform="rotate(-135 1138.53 1475.93)"
           fill="#272629"
         />
         <rect
-          x="1148.18"
-          y="1432.27"
+          x="1144.18"
+          y="1470.28"
           width="2006"
           height="4"
-          transform="rotate(-135 1148.18 1432.27)"
+          transform="rotate(-135 1144.18 1470.28)"
           fill="#272629"
         />
         <rect
-          x="1153.83"
-          y="1426.62"
+          x="1149.84"
+          y="1464.62"
           width="2006"
           height="4"
-          transform="rotate(-135 1153.83 1426.62)"
+          transform="rotate(-135 1149.84 1464.62)"
           fill="#272629"
         />
         <rect
-          x="1159.49"
-          y="1420.96"
+          x="1155.5"
+          y="1458.96"
           width="2006"
           height="4"
-          transform="rotate(-135 1159.49 1420.96)"
+          transform="rotate(-135 1155.5 1458.96)"
           fill="#272629"
         />
         <rect
-          x="1165.15"
-          y="1415.3"
+          x="1161.15"
+          y="1453.3"
           width="2006"
           height="4"
-          transform="rotate(-135 1165.15 1415.3)"
+          transform="rotate(-135 1161.15 1453.3)"
           fill="#272629"
         />
         <rect
-          x="1170.8"
-          y="1409.65"
+          x="1166.81"
+          y="1447.65"
           width="2006"
           height="4"
-          transform="rotate(-135 1170.8 1409.65)"
+          transform="rotate(-135 1166.81 1447.65)"
           fill="#272629"
         />
         <rect
-          x="1176.46"
-          y="1403.99"
+          x="1172.47"
+          y="1441.99"
           width="2006"
           height="4"
-          transform="rotate(-135 1176.46 1403.99)"
+          transform="rotate(-135 1172.47 1441.99)"
           fill="#272629"
         />
         <rect
-          x="1182.12"
-          y="1398.33"
+          x="1178.12"
+          y="1436.33"
           width="2006"
           height="4"
-          transform="rotate(-135 1182.12 1398.33)"
+          transform="rotate(-135 1178.12 1436.33)"
           fill="#272629"
         />
         <rect
-          x="1187.77"
-          y="1392.68"
+          x="1183.78"
+          y="1430.68"
           width="2006"
           height="4"
-          transform="rotate(-135 1187.77 1392.68)"
+          transform="rotate(-135 1183.78 1430.68)"
           fill="#272629"
         />
         <rect
-          x="1193.43"
-          y="1387.02"
+          x="1189.44"
+          y="1425.02"
           width="2006"
           height="4"
-          transform="rotate(-135 1193.43 1387.02)"
+          transform="rotate(-135 1189.44 1425.02)"
           fill="#272629"
         />
         <rect
-          x="1199.09"
-          y="1381.36"
+          x="1195.09"
+          y="1419.36"
           width="2006"
           height="4"
-          transform="rotate(-135 1199.09 1381.36)"
+          transform="rotate(-135 1195.09 1419.36)"
           fill="#272629"
         />
         <rect
-          x="1204.74"
-          y="1375.71"
+          x="1200.75"
+          y="1413.71"
           width="2006"
           height="4"
-          transform="rotate(-135 1204.74 1375.71)"
+          transform="rotate(-135 1200.75 1413.71)"
           fill="#272629"
         />
         <rect
-          x="1210.4"
-          y="1370.05"
+          x="1206.41"
+          y="1408.05"
           width="2006"
           height="4"
-          transform="rotate(-135 1210.4 1370.05)"
+          transform="rotate(-135 1206.41 1408.05)"
           fill="#272629"
         />
         <rect
-          x="1216.06"
-          y="1364.39"
+          x="1212.06"
+          y="1402.39"
           width="2006"
           height="4"
-          transform="rotate(-135 1216.06 1364.39)"
+          transform="rotate(-135 1212.06 1402.39)"
           fill="#272629"
         />
         <rect
-          x="1221.71"
-          y="1358.74"
+          x="1217.72"
+          y="1396.74"
           width="2006"
           height="4"
-          transform="rotate(-135 1221.71 1358.74)"
+          transform="rotate(-135 1217.72 1396.74)"
           fill="#272629"
         />
         <rect
-          x="1227.37"
-          y="1353.08"
+          x="1223.38"
+          y="1391.08"
           width="2006"
           height="4"
-          transform="rotate(-135 1227.37 1353.08)"
+          transform="rotate(-135 1223.38 1391.08)"
           fill="#272629"
         />
         <rect
-          x="1233.03"
-          y="1347.42"
+          x="1229.04"
+          y="1385.42"
           width="2006"
           height="4"
-          transform="rotate(-135 1233.03 1347.42)"
+          transform="rotate(-135 1229.04 1385.42)"
           fill="#272629"
         />
         <rect
-          x="1238.69"
-          y="1341.77"
+          x="1234.69"
+          y="1379.77"
           width="2006"
           height="4"
-          transform="rotate(-135 1238.69 1341.77)"
+          transform="rotate(-135 1234.69 1379.77)"
           fill="#272629"
         />
         <rect
-          x="1244.34"
-          y="1336.11"
+          x="1240.35"
+          y="1374.11"
           width="2006"
           height="4"
-          transform="rotate(-135 1244.34 1336.11)"
+          transform="rotate(-135 1240.35 1374.11)"
           fill="#272629"
         />
         <rect
-          x="1250"
-          y="1330.45"
+          x="1246.01"
+          y="1368.45"
           width="2006"
           height="4"
-          transform="rotate(-135 1250 1330.45)"
+          transform="rotate(-135 1246.01 1368.45)"
           fill="#272629"
         />
         <rect
-          x="1255.66"
-          y="1324.79"
+          x="1251.66"
+          y="1362.79"
           width="2006"
           height="4"
-          transform="rotate(-135 1255.66 1324.79)"
+          transform="rotate(-135 1251.66 1362.79)"
           fill="#272629"
         />
         <rect
-          x="1261.31"
-          y="1319.14"
+          x="1257.32"
+          y="1357.14"
           width="2006"
           height="4"
-          transform="rotate(-135 1261.31 1319.14)"
+          transform="rotate(-135 1257.32 1357.14)"
           fill="#272629"
         />
         <rect
-          x="1266.97"
-          y="1313.48"
+          x="1262.98"
+          y="1351.48"
           width="2006"
           height="4"
-          transform="rotate(-135 1266.97 1313.48)"
+          transform="rotate(-135 1262.98 1351.48)"
           fill="#272629"
         />
         <rect
-          x="1272.63"
-          y="1307.82"
+          x="1268.63"
+          y="1345.82"
           width="2006"
           height="4"
-          transform="rotate(-135 1272.63 1307.82)"
+          transform="rotate(-135 1268.63 1345.82)"
           fill="#272629"
         />
         <rect
-          x="1278.28"
-          y="1302.17"
+          x="1274.29"
+          y="1340.17"
           width="2006"
           height="4"
-          transform="rotate(-135 1278.28 1302.17)"
+          transform="rotate(-135 1274.29 1340.17)"
           fill="#272629"
         />
         <rect
-          x="1283.94"
-          y="1296.51"
+          x="1279.95"
+          y="1334.51"
           width="2006"
           height="4"
-          transform="rotate(-135 1283.94 1296.51)"
+          transform="rotate(-135 1279.95 1334.51)"
           fill="#272629"
         />
         <rect
-          x="1289.6"
-          y="1290.85"
+          x="1285.6"
+          y="1328.85"
           width="2006"
           height="4"
-          transform="rotate(-135 1289.6 1290.85)"
+          transform="rotate(-135 1285.6 1328.85)"
           fill="#272629"
         />
         <rect
-          x="1295.25"
-          y="1285.2"
+          x="1291.26"
+          y="1323.2"
           width="2006"
           height="4"
-          transform="rotate(-135 1295.25 1285.2)"
+          transform="rotate(-135 1291.26 1323.2)"
           fill="#272629"
         />
         <rect
-          x="1300.91"
-          y="1279.54"
+          x="1296.92"
+          y="1317.54"
           width="2006"
           height="4"
-          transform="rotate(-135 1300.91 1279.54)"
+          transform="rotate(-135 1296.92 1317.54)"
           fill="#272629"
         />
         <rect
-          x="1306.57"
-          y="1273.88"
+          x="1302.57"
+          y="1311.88"
           width="2006"
           height="4"
-          transform="rotate(-135 1306.57 1273.88)"
+          transform="rotate(-135 1302.57 1311.88)"
           fill="#272629"
         />
         <rect
-          x="1312.22"
-          y="1268.23"
+          x="1308.23"
+          y="1306.23"
           width="2006"
           height="4"
-          transform="rotate(-135 1312.22 1268.23)"
+          transform="rotate(-135 1308.23 1306.23)"
           fill="#272629"
         />
         <rect
-          x="1317.88"
-          y="1262.57"
+          x="1313.89"
+          y="1300.57"
           width="2006"
           height="4"
-          transform="rotate(-135 1317.88 1262.57)"
+          transform="rotate(-135 1313.89 1300.57)"
           fill="#272629"
         />
         <rect
-          x="1323.54"
-          y="1256.91"
+          x="1319.54"
+          y="1294.91"
           width="2006"
           height="4"
-          transform="rotate(-135 1323.54 1256.91)"
+          transform="rotate(-135 1319.54 1294.91)"
           fill="#272629"
         />
         <rect
-          x="1329.2"
-          y="1251.26"
+          x="1325.2"
+          y="1289.26"
           width="2006"
           height="4"
-          transform="rotate(-135 1329.2 1251.26)"
+          transform="rotate(-135 1325.2 1289.26)"
           fill="#272629"
         />
         <rect
-          x="1334.85"
-          y="1245.6"
+          x="1330.86"
+          y="1283.6"
           width="2006"
           height="4"
-          transform="rotate(-135 1334.85 1245.6)"
+          transform="rotate(-135 1330.86 1283.6)"
           fill="#272629"
         />
         <rect
-          x="1340.51"
-          y="1239.94"
+          x="1336.51"
+          y="1277.94"
           width="2006"
           height="4"
-          transform="rotate(-135 1340.51 1239.94)"
+          transform="rotate(-135 1336.51 1277.94)"
           fill="#272629"
         />
         <rect
-          x="1346.17"
-          y="1234.28"
+          x="1342.17"
+          y="1272.29"
           width="2006"
           height="4"
-          transform="rotate(-135 1346.17 1234.28)"
+          transform="rotate(-135 1342.17 1272.29)"
           fill="#272629"
         />
         <rect
-          x="1351.82"
-          y="1228.63"
+          x="1347.83"
+          y="1266.63"
           width="2006"
           height="4"
-          transform="rotate(-135 1351.82 1228.63)"
+          transform="rotate(-135 1347.83 1266.63)"
           fill="#272629"
         />
         <rect
-          x="1357.48"
-          y="1222.97"
+          x="1353.49"
+          y="1260.97"
           width="2006"
           height="4"
-          transform="rotate(-135 1357.48 1222.97)"
+          transform="rotate(-135 1353.49 1260.97)"
           fill="#272629"
         />
         <rect
-          x="1363.14"
-          y="1217.31"
+          x="1359.14"
+          y="1255.31"
           width="2006"
           height="4"
-          transform="rotate(-135 1363.14 1217.31)"
+          transform="rotate(-135 1359.14 1255.31)"
           fill="#272629"
         />
         <rect
-          x="1368.79"
-          y="1211.66"
+          x="1364.8"
+          y="1249.66"
           width="2006"
           height="4"
-          transform="rotate(-135 1368.79 1211.66)"
+          transform="rotate(-135 1364.8 1249.66)"
           fill="#272629"
         />
         <rect
-          x="1374.45"
-          y="1206"
+          x="1370.46"
+          y="1244"
           width="2006"
           height="4"
-          transform="rotate(-135 1374.45 1206)"
+          transform="rotate(-135 1370.46 1244)"
           fill="#272629"
         />
         <rect
-          x="1380.11"
-          y="1200.34"
+          x="1376.11"
+          y="1238.34"
           width="2006"
           height="4"
-          transform="rotate(-135 1380.11 1200.34)"
+          transform="rotate(-135 1376.11 1238.34)"
           fill="#272629"
         />
         <rect
-          x="1385.76"
-          y="1194.69"
+          x="1381.77"
+          y="1232.69"
           width="2006"
           height="4"
-          transform="rotate(-135 1385.76 1194.69)"
+          transform="rotate(-135 1381.77 1232.69)"
           fill="#272629"
         />
         <rect
-          x="1391.42"
-          y="1189.03"
+          x="1387.43"
+          y="1227.03"
           width="2006"
           height="4"
-          transform="rotate(-135 1391.42 1189.03)"
+          transform="rotate(-135 1387.43 1227.03)"
           fill="#272629"
         />
         <rect
-          x="1397.08"
-          y="1183.37"
+          x="1393.08"
+          y="1221.37"
           width="2006"
           height="4"
-          transform="rotate(-135 1397.08 1183.37)"
+          transform="rotate(-135 1393.08 1221.37)"
           fill="#272629"
         />
         <rect
-          x="1402.73"
-          y="1177.72"
+          x="1398.74"
+          y="1215.72"
           width="2006"
           height="4"
-          transform="rotate(-135 1402.73 1177.72)"
+          transform="rotate(-135 1398.74 1215.72)"
           fill="#272629"
         />
         <rect
-          x="1408.39"
-          y="1172.06"
+          x="1404.4"
+          y="1210.06"
           width="2006"
           height="4"
-          transform="rotate(-135 1408.39 1172.06)"
+          transform="rotate(-135 1404.4 1210.06)"
           fill="#272629"
         />
         <rect
-          x="1414.05"
-          y="1166.4"
+          x="1410.05"
+          y="1204.4"
           width="2006"
           height="4"
-          transform="rotate(-135 1414.05 1166.4)"
+          transform="rotate(-135 1410.05 1204.4)"
           fill="#272629"
         />
         <rect
-          x="1419.71"
-          y="1160.75"
+          x="1415.71"
+          y="1198.75"
           width="2006"
           height="4"
-          transform="rotate(-135 1419.71 1160.75)"
+          transform="rotate(-135 1415.71 1198.75)"
           fill="#272629"
         />
         <rect
-          x="1425.36"
-          y="1155.09"
+          x="1421.37"
+          y="1193.09"
           width="2006"
           height="4"
-          transform="rotate(-135 1425.36 1155.09)"
+          transform="rotate(-135 1421.37 1193.09)"
           fill="#272629"
         />
         <rect
-          x="1431.02"
-          y="1149.43"
+          x="1427.02"
+          y="1187.43"
           width="2006"
           height="4"
-          transform="rotate(-135 1431.02 1149.43)"
+          transform="rotate(-135 1427.02 1187.43)"
           fill="#272629"
         />
         <rect
-          x="1436.68"
-          y="1143.78"
+          x="1432.68"
+          y="1181.78"
           width="2006"
           height="4"
-          transform="rotate(-135 1436.68 1143.78)"
+          transform="rotate(-135 1432.68 1181.78)"
           fill="#272629"
         />
         <rect
-          x="1442.33"
-          y="1138.12"
+          x="1438.34"
+          y="1176.12"
           width="2006"
           height="4"
-          transform="rotate(-135 1442.33 1138.12)"
+          transform="rotate(-135 1438.34 1176.12)"
           fill="#272629"
         />
         <rect
-          x="1447.99"
-          y="1132.46"
+          x="1444"
+          y="1170.46"
           width="2006"
           height="4"
-          transform="rotate(-135 1447.99 1132.46)"
+          transform="rotate(-135 1444 1170.46)"
           fill="#272629"
         />
         <rect
-          x="1453.65"
-          y="1126.8"
+          x="1449.65"
+          y="1164.81"
           width="2006"
           height="4"
-          transform="rotate(-135 1453.65 1126.8)"
+          transform="rotate(-135 1449.65 1164.81)"
           fill="#272629"
         />
         <rect
-          x="1459.3"
-          y="1121.15"
+          x="1455.31"
+          y="1159.15"
           width="2006"
           height="4"
-          transform="rotate(-135 1459.3 1121.15)"
+          transform="rotate(-135 1455.31 1159.15)"
           fill="#272629"
         />
         <rect
-          x="1464.96"
-          y="1115.49"
+          x="1460.97"
+          y="1153.49"
           width="2006"
           height="4"
-          transform="rotate(-135 1464.96 1115.49)"
+          transform="rotate(-135 1460.97 1153.49)"
           fill="#272629"
         />
         <rect
-          x="1470.62"
-          y="1109.83"
+          x="1466.62"
+          y="1147.83"
           width="2006"
           height="4"
-          transform="rotate(-135 1470.62 1109.83)"
+          transform="rotate(-135 1466.62 1147.83)"
           fill="#272629"
         />
         <rect
-          x="1476.27"
-          y="1104.18"
+          x="1472.28"
+          y="1142.18"
           width="2006"
           height="4"
-          transform="rotate(-135 1476.27 1104.18)"
+          transform="rotate(-135 1472.28 1142.18)"
           fill="#272629"
         />
         <rect
-          x="1481.93"
-          y="1098.52"
+          x="1477.94"
+          y="1136.52"
           width="2006"
           height="4"
-          transform="rotate(-135 1481.93 1098.52)"
+          transform="rotate(-135 1477.94 1136.52)"
           fill="#272629"
         />
         <rect
-          x="1487.59"
-          y="1092.86"
+          x="1483.59"
+          y="1130.86"
           width="2006"
           height="4"
-          transform="rotate(-135 1487.59 1092.86)"
+          transform="rotate(-135 1483.59 1130.86)"
           fill="#272629"
         />
         <rect
-          x="1493.24"
-          y="1087.21"
+          x="1489.25"
+          y="1125.21"
           width="2006"
           height="4"
-          transform="rotate(-135 1493.24 1087.21)"
+          transform="rotate(-135 1489.25 1125.21)"
           fill="#272629"
         />
         <rect
-          x="1498.9"
-          y="1081.55"
+          x="1494.91"
+          y="1119.55"
           width="2006"
           height="4"
-          transform="rotate(-135 1498.9 1081.55)"
+          transform="rotate(-135 1494.91 1119.55)"
           fill="#272629"
         />
         <rect
-          x="1504.56"
-          y="1075.89"
+          x="1500.56"
+          y="1113.89"
           width="2006"
           height="4"
-          transform="rotate(-135 1504.56 1075.89)"
+          transform="rotate(-135 1500.56 1113.89)"
           fill="#272629"
         />
         <rect
-          x="1510.21"
-          y="1070.24"
+          x="1506.22"
+          y="1108.24"
           width="2006"
           height="4"
-          transform="rotate(-135 1510.21 1070.24)"
+          transform="rotate(-135 1506.22 1108.24)"
           fill="#272629"
         />
         <rect
-          x="1515.87"
-          y="1064.58"
+          x="1511.88"
+          y="1102.58"
           width="2006"
           height="4"
-          transform="rotate(-135 1515.87 1064.58)"
+          transform="rotate(-135 1511.88 1102.58)"
           fill="#272629"
         />
         <rect
-          x="1521.53"
-          y="1058.92"
+          x="1517.53"
+          y="1096.92"
           width="2006"
           height="4"
-          transform="rotate(-135 1521.53 1058.92)"
+          transform="rotate(-135 1517.53 1096.92)"
           fill="#272629"
         />
         <rect
-          x="1527.19"
-          y="1053.27"
+          x="1523.19"
+          y="1091.27"
           width="2006"
           height="4"
-          transform="rotate(-135 1527.19 1053.27)"
+          transform="rotate(-135 1523.19 1091.27)"
           fill="#272629"
         />
         <rect
-          x="1532.84"
-          y="1047.61"
+          x="1528.85"
+          y="1085.61"
           width="2006"
           height="4"
-          transform="rotate(-135 1532.84 1047.61)"
+          transform="rotate(-135 1528.85 1085.61)"
           fill="#272629"
         />
         <rect
-          x="1538.5"
-          y="1041.95"
+          x="1534.5"
+          y="1079.95"
           width="2006"
           height="4"
-          transform="rotate(-135 1538.5 1041.95)"
+          transform="rotate(-135 1534.5 1079.95)"
           fill="#272629"
         />
         <rect
-          x="1544.16"
-          y="1036.29"
+          x="1540.16"
+          y="1074.3"
           width="2006"
           height="4"
-          transform="rotate(-135 1544.16 1036.29)"
+          transform="rotate(-135 1540.16 1074.3)"
           fill="#272629"
         />
         <rect
-          x="1549.81"
-          y="1030.64"
+          x="1545.82"
+          y="1068.64"
           width="2006"
           height="4"
-          transform="rotate(-135 1549.81 1030.64)"
+          transform="rotate(-135 1545.82 1068.64)"
           fill="#272629"
         />
         <rect
-          x="1555.47"
-          y="1024.98"
+          x="1551.48"
+          y="1062.98"
           width="2006"
           height="4"
-          transform="rotate(-135 1555.47 1024.98)"
+          transform="rotate(-135 1551.48 1062.98)"
           fill="#272629"
         />
         <rect
-          x="1561.13"
-          y="1019.32"
+          x="1557.13"
+          y="1057.32"
           width="2006"
           height="4"
-          transform="rotate(-135 1561.13 1019.32)"
+          transform="rotate(-135 1557.13 1057.32)"
           fill="#272629"
         />
         <rect
-          x="1566.78"
-          y="1013.67"
+          x="1562.79"
+          y="1051.67"
           width="2006"
           height="4"
-          transform="rotate(-135 1566.78 1013.67)"
+          transform="rotate(-135 1562.79 1051.67)"
           fill="#272629"
         />
         <rect
-          x="1572.44"
-          y="1008.01"
+          x="1568.45"
+          y="1046.01"
           width="2006"
           height="4"
-          transform="rotate(-135 1572.44 1008.01)"
+          transform="rotate(-135 1568.45 1046.01)"
           fill="#272629"
         />
         <rect
-          x="1578.1"
-          y="1002.35"
+          x="1574.1"
+          y="1040.35"
           width="2006"
           height="4"
-          transform="rotate(-135 1578.1 1002.35)"
+          transform="rotate(-135 1574.1 1040.35)"
           fill="#272629"
         />
         <rect
-          x="1583.75"
-          y="996.697"
+          x="1579.76"
+          y="1034.7"
           width="2006"
           height="4"
-          transform="rotate(-135 1583.75 996.697)"
+          transform="rotate(-135 1579.76 1034.7)"
           fill="#272629"
         />
         <rect
-          x="1589.41"
-          y="991.04"
+          x="1585.42"
+          y="1029.04"
           width="2006"
           height="4"
-          transform="rotate(-135 1589.41 991.04)"
+          transform="rotate(-135 1585.42 1029.04)"
           fill="#272629"
         />
         <rect
-          x="1595.07"
-          y="985.383"
+          x="1591.07"
+          y="1023.38"
           width="2006"
           height="4"
-          transform="rotate(-135 1595.07 985.383)"
+          transform="rotate(-135 1591.07 1023.38)"
           fill="#272629"
         />
         <rect
-          x="1600.72"
-          y="979.727"
+          x="1596.73"
+          y="1017.73"
           width="2006"
           height="4"
-          transform="rotate(-135 1600.72 979.727)"
+          transform="rotate(-135 1596.73 1017.73)"
           fill="#272629"
         />
         <rect
-          x="1606.38"
-          y="974.069"
+          x="1602.39"
+          y="1012.07"
           width="2006"
           height="4"
-          transform="rotate(-135 1606.38 974.069)"
+          transform="rotate(-135 1602.39 1012.07)"
           fill="#272629"
         />
         <rect
-          x="1612.04"
-          y="968.413"
+          x="1608.04"
+          y="1006.41"
           width="2006"
           height="4"
-          transform="rotate(-135 1612.04 968.413)"
+          transform="rotate(-135 1608.04 1006.41)"
           fill="#272629"
         />
         <rect
-          x="1617.7"
-          y="962.756"
+          x="1613.7"
+          y="1000.76"
           width="2006"
           height="4"
-          transform="rotate(-135 1617.7 962.756)"
+          transform="rotate(-135 1613.7 1000.76)"
           fill="#272629"
         />
         <rect
-          x="1623.35"
-          y="957.099"
+          x="1619.36"
+          y="995.1"
           width="2006"
           height="4"
-          transform="rotate(-135 1623.35 957.099)"
+          transform="rotate(-135 1619.36 995.1)"
           fill="#272629"
         />
         <rect
-          x="1629.01"
-          y="951.442"
+          x="1625.01"
+          y="989.442"
           width="2006"
           height="4"
-          transform="rotate(-135 1629.01 951.442)"
+          transform="rotate(-135 1625.01 989.442)"
           fill="#272629"
         />
         <rect
-          x="1634.67"
-          y="945.785"
+          x="1630.67"
+          y="983.786"
           width="2006"
           height="4"
-          transform="rotate(-135 1634.67 945.785)"
+          transform="rotate(-135 1630.67 983.786)"
           fill="#272629"
         />
         <rect
-          x="1640.32"
-          y="940.128"
+          x="1636.33"
+          y="978.129"
           width="2006"
           height="4"
-          transform="rotate(-135 1640.32 940.128)"
+          transform="rotate(-135 1636.33 978.129)"
           fill="#272629"
         />
         <rect
-          x="1645.98"
-          y="934.472"
+          x="1641.99"
+          y="972.472"
           width="2006"
           height="4"
-          transform="rotate(-135 1645.98 934.472)"
+          transform="rotate(-135 1641.99 972.472)"
           fill="#272629"
         />
         <rect
-          x="1651.64"
-          y="928.815"
+          x="1647.64"
+          y="966.815"
           width="2006"
           height="4"
-          transform="rotate(-135 1651.64 928.815)"
+          transform="rotate(-135 1647.64 966.815)"
           fill="#272629"
         />
         <rect
-          x="1657.29"
-          y="923.158"
+          x="1653.3"
+          y="961.158"
           width="2006"
           height="4"
-          transform="rotate(-135 1657.29 923.158)"
+          transform="rotate(-135 1653.3 961.158)"
           fill="#272629"
         />
         <rect
-          x="1662.95"
-          y="917.501"
+          x="1658.96"
+          y="955.501"
           width="2006"
           height="4"
-          transform="rotate(-135 1662.95 917.501)"
+          transform="rotate(-135 1658.96 955.501)"
           fill="#272629"
         />
         <rect
-          x="1668.61"
-          y="911.844"
+          x="1664.61"
+          y="949.845"
           width="2006"
           height="4"
-          transform="rotate(-135 1668.61 911.844)"
+          transform="rotate(-135 1664.61 949.845)"
           fill="#272629"
         />
         <rect
-          x="1674.26"
-          y="906.188"
+          x="1670.27"
+          y="944.188"
           width="2006"
           height="4"
-          transform="rotate(-135 1674.26 906.188)"
+          transform="rotate(-135 1670.27 944.188)"
           fill="#272629"
         />
         <rect
-          x="1679.92"
-          y="900.53"
+          x="1675.93"
+          y="938.531"
           width="2006"
           height="4"
-          transform="rotate(-135 1679.92 900.53)"
+          transform="rotate(-135 1675.93 938.531)"
           fill="#272629"
         />
         <rect
-          x="1685.58"
-          y="894.874"
+          x="1681.58"
+          y="932.874"
           width="2006"
           height="4"
-          transform="rotate(-135 1685.58 894.874)"
+          transform="rotate(-135 1681.58 932.874)"
           fill="#272629"
         />
         <rect
-          x="1691.23"
-          y="889.217"
+          x="1687.24"
+          y="927.217"
           width="2006"
           height="4"
-          transform="rotate(-135 1691.23 889.217)"
+          transform="rotate(-135 1687.24 927.217)"
           fill="#272629"
         />
         <rect
-          x="1696.89"
-          y="883.56"
+          x="1692.9"
+          y="921.561"
           width="2006"
           height="4"
-          transform="rotate(-135 1696.89 883.56)"
+          transform="rotate(-135 1692.9 921.561)"
           fill="#272629"
         />
         <rect
-          x="1702.55"
-          y="877.903"
+          x="1698.55"
+          y="915.903"
           width="2006"
           height="4"
-          transform="rotate(-135 1702.55 877.903)"
+          transform="rotate(-135 1698.55 915.903)"
           fill="#272629"
         />
         <rect
-          x="1708.21"
-          y="872.246"
+          x="1704.21"
+          y="910.247"
           width="2006"
           height="4"
-          transform="rotate(-135 1708.21 872.246)"
+          transform="rotate(-135 1704.21 910.247)"
           fill="#272629"
         />
         <rect
-          x="1713.86"
-          y="866.589"
+          x="1709.87"
+          y="904.59"
           width="2006"
           height="4"
-          transform="rotate(-135 1713.86 866.589)"
+          transform="rotate(-135 1709.87 904.59)"
           fill="#272629"
         />
         <rect
-          x="1719.52"
-          y="860.933"
+          x="1715.52"
+          y="898.933"
           width="2006"
           height="4"
-          transform="rotate(-135 1719.52 860.933)"
+          transform="rotate(-135 1715.52 898.933)"
           fill="#272629"
         />
         <rect
-          x="1725.18"
-          y="855.275"
+          x="1721.18"
+          y="893.276"
           width="2006"
           height="4"
-          transform="rotate(-135 1725.18 855.275)"
+          transform="rotate(-135 1721.18 893.276)"
           fill="#272629"
         />
         <rect
-          x="1730.83"
-          y="849.619"
+          x="1726.84"
+          y="887.619"
           width="2006"
           height="4"
-          transform="rotate(-135 1730.83 849.619)"
+          transform="rotate(-135 1726.84 887.619)"
           fill="#272629"
         />
         <rect
-          x="1736.49"
-          y="843.962"
+          x="1732.5"
+          y="881.962"
           width="2006"
           height="4"
-          transform="rotate(-135 1736.49 843.962)"
+          transform="rotate(-135 1732.5 881.962)"
           fill="#272629"
         />
         <rect
-          x="1742.15"
-          y="838.305"
+          x="1738.15"
+          y="876.306"
           width="2006"
           height="4"
-          transform="rotate(-135 1742.15 838.305)"
+          transform="rotate(-135 1738.15 876.306)"
           fill="#272629"
         />
         <rect
-          x="1747.8"
-          y="832.648"
+          x="1743.81"
+          y="870.649"
           width="2006"
           height="4"
-          transform="rotate(-135 1747.8 832.648)"
+          transform="rotate(-135 1743.81 870.649)"
           fill="#272629"
         />
         <rect
-          x="1753.46"
-          y="826.991"
+          x="1749.47"
+          y="864.992"
           width="2006"
           height="4"
-          transform="rotate(-135 1753.46 826.991)"
+          transform="rotate(-135 1749.47 864.992)"
           fill="#272629"
         />
         <rect
-          x="1759.12"
-          y="821.334"
+          x="1755.12"
+          y="859.335"
           width="2006"
           height="4"
-          transform="rotate(-135 1759.12 821.334)"
+          transform="rotate(-135 1755.12 859.335)"
           fill="#272629"
         />
         <rect
-          x="1764.77"
-          y="815.678"
+          x="1760.78"
+          y="853.678"
           width="2006"
           height="4"
-          transform="rotate(-135 1764.77 815.678)"
+          transform="rotate(-135 1760.78 853.678)"
           fill="#272629"
         />
         <rect
-          x="1770.43"
-          y="810.021"
+          x="1766.44"
+          y="848.021"
           width="2006"
           height="4"
-          transform="rotate(-135 1770.43 810.021)"
+          transform="rotate(-135 1766.44 848.021)"
           fill="#272629"
         />
         <rect
-          x="1776.09"
-          y="804.364"
+          x="1772.09"
+          y="842.364"
           width="2006"
           height="4"
-          transform="rotate(-135 1776.09 804.364)"
+          transform="rotate(-135 1772.09 842.364)"
           fill="#272629"
         />
         <rect
-          x="1781.74"
-          y="798.707"
+          x="1777.75"
+          y="836.708"
           width="2006"
           height="4"
-          transform="rotate(-135 1781.74 798.707)"
+          transform="rotate(-135 1777.75 836.708)"
           fill="#272629"
         />
         <rect
-          x="1787.4"
-          y="793.05"
+          x="1783.41"
+          y="831.051"
           width="2006"
           height="4"
-          transform="rotate(-135 1787.4 793.05)"
+          transform="rotate(-135 1783.41 831.051)"
           fill="#272629"
         />
         <rect
-          x="1793.06"
-          y="787.394"
+          x="1789.06"
+          y="825.394"
           width="2006"
           height="4"
-          transform="rotate(-135 1793.06 787.394)"
+          transform="rotate(-135 1789.06 825.394)"
           fill="#272629"
         />
         <rect
-          x="1798.71"
-          y="781.736"
+          x="1794.72"
+          y="819.737"
           width="2006"
           height="4"
-          transform="rotate(-135 1798.71 781.736)"
+          transform="rotate(-135 1794.72 819.737)"
           fill="#272629"
         />
         <rect
-          x="1804.37"
-          y="776.08"
+          x="1800.38"
+          y="814.08"
           width="2006"
           height="4"
-          transform="rotate(-135 1804.37 776.08)"
+          transform="rotate(-135 1800.38 814.08)"
           fill="#272629"
         />
         <rect
-          x="1810.03"
-          y="770.423"
+          x="1806.03"
+          y="808.423"
           width="2006"
           height="4"
-          transform="rotate(-135 1810.03 770.423)"
+          transform="rotate(-135 1806.03 808.423)"
           fill="#272629"
         />
         <rect
-          x="1815.69"
-          y="764.766"
+          x="1811.69"
+          y="802.767"
           width="2006"
           height="4"
-          transform="rotate(-135 1815.69 764.766)"
+          transform="rotate(-135 1811.69 802.767)"
           fill="#272629"
         />
         <rect
-          x="1821.34"
-          y="759.109"
+          x="1817.35"
+          y="797.109"
           width="2006"
           height="4"
-          transform="rotate(-135 1821.34 759.109)"
+          transform="rotate(-135 1817.35 797.109)"
           fill="#272629"
         />
         <rect
-          x="1827"
-          y="753.452"
+          x="1823"
+          y="791.453"
           width="2006"
           height="4"
-          transform="rotate(-135 1827 753.452)"
+          transform="rotate(-135 1823 791.453)"
           fill="#272629"
         />
         <rect
-          x="1832.66"
-          y="747.795"
+          x="1828.66"
+          y="785.796"
           width="2006"
           height="4"
-          transform="rotate(-135 1832.66 747.795)"
+          transform="rotate(-135 1828.66 785.796)"
           fill="#272629"
         />
         <rect
-          x="1838.31"
-          y="742.139"
+          x="1834.32"
+          y="780.139"
           width="2006"
           height="4"
-          transform="rotate(-135 1838.31 742.139)"
+          transform="rotate(-135 1834.32 780.139)"
           fill="#272629"
         />
         <rect
-          x="1843.97"
-          y="736.481"
+          x="1839.98"
+          y="774.482"
           width="2006"
           height="4"
-          transform="rotate(-135 1843.97 736.481)"
+          transform="rotate(-135 1839.98 774.482)"
           fill="#272629"
         />
         <rect
-          x="1849.63"
-          y="730.825"
+          x="1845.63"
+          y="768.825"
           width="2006"
           height="4"
-          transform="rotate(-135 1849.63 730.825)"
+          transform="rotate(-135 1845.63 768.825)"
           fill="#272629"
         />
         <rect
-          x="1855.28"
-          y="725.168"
+          x="1851.29"
+          y="763.168"
           width="2006"
           height="4"
-          transform="rotate(-135 1855.28 725.168)"
+          transform="rotate(-135 1851.29 763.168)"
           fill="#272629"
         />
         <rect
-          x="1860.94"
-          y="719.511"
+          x="1856.95"
+          y="757.512"
           width="2006"
           height="4"
-          transform="rotate(-135 1860.94 719.511)"
+          transform="rotate(-135 1856.95 757.512)"
           fill="#272629"
         />
         <rect
-          x="1866.6"
-          y="713.854"
+          x="1862.6"
+          y="751.855"
           width="2006"
           height="4"
-          transform="rotate(-135 1866.6 713.854)"
+          transform="rotate(-135 1862.6 751.855)"
           fill="#272629"
         />
         <rect
-          x="1872.25"
-          y="708.197"
+          x="1868.26"
+          y="746.198"
           width="2006"
           height="4"
-          transform="rotate(-135 1872.25 708.197)"
+          transform="rotate(-135 1868.26 746.198)"
           fill="#272629"
         />
         <rect
-          x="1877.91"
-          y="702.541"
+          x="1873.92"
+          y="740.541"
           width="2006"
           height="4"
-          transform="rotate(-135 1877.91 702.541)"
+          transform="rotate(-135 1873.92 740.541)"
           fill="#272629"
         />
         <rect
-          x="1883.57"
-          y="696.884"
+          x="1879.57"
+          y="734.884"
           width="2006"
           height="4"
-          transform="rotate(-135 1883.57 696.884)"
+          transform="rotate(-135 1879.57 734.884)"
           fill="#272629"
         />
         <rect
-          x="1889.22"
-          y="691.227"
+          x="1885.23"
+          y="729.228"
           width="2006"
           height="4"
-          transform="rotate(-135 1889.22 691.227)"
+          transform="rotate(-135 1885.23 729.228)"
           fill="#272629"
         />
         <rect
-          x="1894.88"
-          y="685.57"
+          x="1890.89"
+          y="723.57"
           width="2006"
           height="4"
-          transform="rotate(-135 1894.88 685.57)"
+          transform="rotate(-135 1890.89 723.57)"
           fill="#272629"
         />
         <rect
-          x="1900.54"
-          y="679.913"
+          x="1896.54"
+          y="717.914"
           width="2006"
           height="4"
-          transform="rotate(-135 1900.54 679.913)"
+          transform="rotate(-135 1896.54 717.914)"
           fill="#272629"
         />
         <rect
-          x="1906.2"
-          y="674.256"
+          x="1902.2"
+          y="712.257"
           width="2006"
           height="4"
-          transform="rotate(-135 1906.2 674.256)"
+          transform="rotate(-135 1902.2 712.257)"
           fill="#272629"
         />
         <rect
-          x="1911.85"
-          y="668.6"
+          x="1907.86"
+          y="706.6"
           width="2006"
           height="4"
-          transform="rotate(-135 1911.85 668.6)"
+          transform="rotate(-135 1907.86 706.6)"
           fill="#272629"
         />
         <rect
-          x="1917.51"
-          y="662.942"
+          x="1913.51"
+          y="700.943"
           width="2006"
           height="4"
-          transform="rotate(-135 1917.51 662.942)"
+          transform="rotate(-135 1913.51 700.943)"
           fill="#272629"
         />
         <rect
-          x="1923.17"
-          y="657.286"
+          x="1919.17"
+          y="695.286"
           width="2006"
           height="4"
-          transform="rotate(-135 1923.17 657.286)"
+          transform="rotate(-135 1919.17 695.286)"
           fill="#272629"
         />
         <rect
-          x="1928.82"
-          y="651.629"
+          x="1924.83"
+          y="689.629"
           width="2006"
           height="4"
-          transform="rotate(-135 1928.82 651.629)"
+          transform="rotate(-135 1924.83 689.629)"
           fill="#272629"
         />
         <rect
-          x="1934.48"
-          y="645.972"
+          x="1930.48"
+          y="683.973"
           width="2006"
           height="4"
-          transform="rotate(-135 1934.48 645.972)"
+          transform="rotate(-135 1930.48 683.973)"
           fill="#272629"
         />
         <rect
-          x="1940.14"
-          y="640.315"
+          x="1936.14"
+          y="678.315"
           width="2006"
           height="4"
-          transform="rotate(-135 1940.14 640.315)"
+          transform="rotate(-135 1936.14 678.315)"
           fill="#272629"
         />
         <rect
-          x="1945.79"
-          y="634.658"
+          x="1941.8"
+          y="672.659"
           width="2006"
           height="4"
-          transform="rotate(-135 1945.79 634.658)"
+          transform="rotate(-135 1941.8 672.659)"
           fill="#272629"
         />
         <rect
-          x="1951.45"
-          y="629.001"
+          x="1947.46"
+          y="667.002"
           width="2006"
           height="4"
-          transform="rotate(-135 1951.45 629.001)"
+          transform="rotate(-135 1947.46 667.002)"
           fill="#272629"
         />
         <rect
-          x="1957.11"
-          y="623.345"
+          x="1953.11"
+          y="661.345"
           width="2006"
           height="4"
-          transform="rotate(-135 1957.11 623.345)"
+          transform="rotate(-135 1953.11 661.345)"
           fill="#272629"
         />
         <rect
-          x="1962.76"
-          y="617.688"
+          x="1958.77"
+          y="655.688"
           width="2006"
           height="4"
-          transform="rotate(-135 1962.76 617.688)"
+          transform="rotate(-135 1958.77 655.688)"
           fill="#272629"
         />
         <rect
-          x="1968.42"
-          y="612.031"
+          x="1964.43"
+          y="650.031"
           width="2006"
           height="4"
-          transform="rotate(-135 1968.42 612.031)"
+          transform="rotate(-135 1964.43 650.031)"
           fill="#272629"
         />
         <rect
-          x="1974.08"
-          y="606.374"
+          x="1970.08"
+          y="644.375"
           width="2006"
           height="4"
-          transform="rotate(-135 1974.08 606.374)"
+          transform="rotate(-135 1970.08 644.375)"
           fill="#272629"
         />
         <rect
-          x="1979.73"
-          y="600.717"
+          x="1975.74"
+          y="638.718"
           width="2006"
           height="4"
-          transform="rotate(-135 1979.73 600.717)"
+          transform="rotate(-135 1975.74 638.718)"
           fill="#272629"
         />
         <rect
-          x="1985.39"
-          y="595.061"
+          x="1981.4"
+          y="633.061"
           width="2006"
           height="4"
-          transform="rotate(-135 1985.39 595.061)"
+          transform="rotate(-135 1981.4 633.061)"
           fill="#272629"
         />
         <rect
-          x="1991.05"
-          y="589.403"
+          x="1987.05"
+          y="627.404"
           width="2006"
           height="4"
-          transform="rotate(-135 1991.05 589.403)"
+          transform="rotate(-135 1987.05 627.404)"
           fill="#272629"
         />
         <rect
-          x="1996.71"
-          y="583.747"
+          x="1992.71"
+          y="621.747"
           width="2006"
           height="4"
-          transform="rotate(-135 1996.71 583.747)"
+          transform="rotate(-135 1992.71 621.747)"
           fill="#272629"
         />
         <rect
-          x="2002.36"
-          y="578.09"
+          x="1998.37"
+          y="616.09"
           width="2006"
           height="4"
-          transform="rotate(-135 2002.36 578.09)"
+          transform="rotate(-135 1998.37 616.09)"
           fill="#272629"
         />
         <rect
-          x="2008.02"
-          y="572.433"
+          x="2004.02"
+          y="610.434"
           width="2006"
           height="4"
-          transform="rotate(-135 2008.02 572.433)"
+          transform="rotate(-135 2004.02 610.434)"
           fill="#272629"
         />
         <rect
-          x="1534.99"
-          y="679.463"
+          x="1531"
+          y="717.463"
           width="227.169"
           height="100"
-          transform="rotate(-46.7499 1534.99 679.463)"
+          transform="rotate(-46.7499 1531 717.463)"
+          fill="#0D0C0F"
+        />
+        <rect
+          width="227.169"
+          height="100"
+          transform="matrix(-0.685185 -0.728369 -0.728369 0.685185 163.489 725.462)"
           fill="#0D0C0F"
         />
       </g>
       <defs>
-        <filter
-          id="filter0_f_2176_6030"
-          x="-1178.6"
-          y="-179.416"
-          width="2363.56"
-          height="2261.7"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feGaussianBlur
-            stdDeviation="245"
-            result="effect1_foregroundBlur_2176_6030"
-          />
-        </filter>
-        <linearGradient
-          id="paint0_linear_2176_6030"
-          x1="840.5"
-          y1="436"
-          x2="840.5"
-          y2="568"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#0D0C0F" stop-opacity="0" />
-          <stop offset="1" stop-color="#0D0C0F" />
-        </linearGradient>
-        <linearGradient
-          id="paint1_linear_2176_6030"
-          x1="332.589"
-          y1="307.465"
-          x2="-544.389"
-          y2="965.858"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop offset="0.311632" stop-color="#4C22A9" />
-          <stop offset="0.706381" stop-color="#250077" />
-          <stop offset="1" stop-color="#18171B" stop-opacity="0" />
-        </linearGradient>
-        <clipPath id="clip0_2176_6030">
+        <clipPath id="clip0_2513_6035">
           <rect
-            width="1768"
-            height="570"
-            fill="white"
-            transform="translate(-36)"
-          />
-        </clipPath>
-        <clipPath id="clip1_2176_6030">
-          <rect
-            width="2169"
+            width="1610"
             height="33"
             fill="white"
-            transform="translate(-503.006 570)"
+            transform="translate(52 608)"
           />
         </clipPath>
       </defs>

@@ -6,8 +6,13 @@ import 'swiper/css'
 import 'swiper/css/free-mode'
 import 'swiper/css/pagination'
 import { FreeMode } from 'swiper'
+import { methodologies } from '../../../../data'
+import { useState } from 'react'
+import { ISwiper } from '../../../../interfaces/ISwiper'
 
 export const Methodology = () => {
+  const [swiper, setSwiper] = useState<ISwiper>()
+
   return (
     <section className={clsx(styles.methodology, 'section')}>
       <div className="container space-top space-bottom">
@@ -21,10 +26,13 @@ export const Methodology = () => {
         <div className="section-text-group">
           <div className="section-title-block">
             <span className="section-label">// DApp Security</span>
-            <h2>Methodology</h2>
+            <h3>Methodology</h3>
           </div>
           <div className={styles.methodologySliderArrows}>
-            <div className={styles.methodologySliderArrow}>
+            <div
+              onClick={() => swiper && swiper.slidePrev()}
+              className={styles.methodologySliderArrow}
+            >
               <svg
                 className={styles.methodologySliderArrowBg}
                 preserveAspectRatio="none"
@@ -98,7 +106,10 @@ export const Methodology = () => {
                 />
               </svg>
             </div>
-            <div className={styles.methodologySliderArrow}>
+            <div
+              onClick={() => swiper && swiper.slideNext()}
+              className={styles.methodologySliderArrow}
+            >
               <svg
                 className={styles.methodologySliderArrowBg}
                 preserveAspectRatio="none"
@@ -181,43 +192,45 @@ export const Methodology = () => {
           pagination={{
             clickable: true,
           }}
+          onSwiper={(swiper) => setSwiper(swiper)}
           modules={[FreeMode]}
           className={styles.methodologySlider}
         >
-          <SwiperSlide className={styles.methodologySliderSlide}>
-            <div className={styles.methodologySliderSlideBg}>
-              <svg
-                preserveAspectRatio="none"
-                width="1142"
-                height="603"
-                viewBox="0 0 1142 603"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M1.52386 41.5261C0.549922 42.4681 0 43.7651 0 45.1201V598C0 600.761 2.23858 603 5 603H869.265C872.026 603 874.265 600.761 874.265 598V566.5C874.265 563.739 876.503 561.5 879.265 561.5H1089.23C1090.42 561.5 1091.58 561.07 1092.49 560.288L1139.26 519.996C1140.37 519.046 1141 517.663 1141 516.208V6C1141 3.23859 1138.76 1 1136 1H45.4459C44.1487 1 42.9022 1.50415 41.9697 2.40607L1.52386 41.5261Z"
-                  fill="#0D0C0F"
-                  stroke="#595A5A"
-                />
-              </svg>
-            </div>
-            <div className={styles.methodologySliderSlideContent}>
-              <div className={styles.slideImage}></div>
-              <div className={styles.slideTextInfo}>
-                <div className="card-number">[ 01 ]</div>
-                <h2>Data Gathering</h2>
-                <div className="section-text-block">
-                  <p>
-                    <div className="triangle"></div>
-                    CybGuard offers robust security measures to protect
-                    decentralized applications (DApps) from potential exploits,
-                    contract vulnerabilities, and malicious attacks, ensuring
-                    the safety and reliability of DApps in the Web3 ecosystem.
-                  </p>
+          {methodologies.map((methodology, idx) => (
+            <SwiperSlide className={styles.methodologySliderSlide}>
+              <div className={styles.methodologySliderSlideBg}>
+                <svg
+                  preserveAspectRatio="none"
+                  width="1142"
+                  height="603"
+                  viewBox="0 0 1142 603"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.52386 41.5261C0.549922 42.4681 0 43.7651 0 45.1201V598C0 600.761 2.23858 603 5 603H869.265C872.026 603 874.265 600.761 874.265 598V566.5C874.265 563.739 876.503 561.5 879.265 561.5H1089.23C1090.42 561.5 1091.58 561.07 1092.49 560.288L1139.26 519.996C1140.37 519.046 1141 517.663 1141 516.208V6C1141 3.23859 1138.76 1 1136 1H45.4459C44.1487 1 42.9022 1.50415 41.9697 2.40607L1.52386 41.5261Z"
+                    fill="#0D0C0F"
+                    stroke="#595A5A"
+                  />
+                </svg>
+              </div>
+              <div className={styles.methodologySliderSlideContent}>
+                <div className={styles.slideImage}>
+                  <img src={methodology.image} alt="" />
+                </div>
+                <div className={styles.slideTextInfo}>
+                  <div className="card-number">[ 0{idx + 1} ]</div>
+                  <h4>{methodology.title}</h4>
+                  <div className="section-text-block">
+                    <p>
+                      <div className="triangle"></div>
+                      {methodology.text}
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </SwiperSlide>
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
     </section>

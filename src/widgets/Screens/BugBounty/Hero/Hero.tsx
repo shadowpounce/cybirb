@@ -19,9 +19,9 @@ export const Hero = () => {
             )}
           >
             <span className="section-label">// Cybirb’s Bug Bounty</span>
-            <h2>
+            <h4>
               CybNest: Building <br /> a Secure Web3 together
-            </h2>
+            </h4>
             <div className="section-text-block">
               <p>
                 <div className="triangle"></div>
@@ -42,7 +42,7 @@ export const Hero = () => {
             )}
           >
             <span className="section-label">// Bug Bounty Platform</span>
-            <h2>Cybirb’s Bug Bounty Platform offers.</h2>
+            <h4>Cybirb’s Bug Bounty Platform offers.</h4>
             <div className={styles.heroStatistics}>
               <div className={styles.heroStatistic}>
                 <span className={styles.heroStatisticTitle}>123 B+</span>

@@ -17,7 +17,7 @@ export const Hero = () => {
         <div className="section-text-group">
           <div className="section-title-block">
             <span className="section-label">// cybguard</span>
-            <h2>Secure Your DApp Today with CybGuard!</h2>
+            <h3>Secure Your DApp Today with CybGuard!</h3>
           </div>
           <div className={clsx('section-text-block', styles.blogTextBlock)}>
             <p>

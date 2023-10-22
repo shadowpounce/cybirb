@@ -13,7 +13,7 @@ export const MoreArticles = () => {
         <div className="section-text-group">
           <div className="section-title-block">
             <span className="section-label">// may interest you</span>
-            <h2>More articles</h2>
+            <h3>More articles</h3>
           </div>
           <div className={clsx('section-text-block', styles.blogTextBlock)}>
             <Button type="link" href="/blog">

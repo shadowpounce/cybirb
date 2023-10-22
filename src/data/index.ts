@@ -1,5 +1,179 @@
 import { iMenuItem } from '../interfaces/IMenu'
 
+export const dappsFeatures = [
+  {
+    title: 'Penetration Testing Excellence',
+    text: [
+      `Our rigorous penetration testing uncovers hidden vulnerabilities and strengthens your DApp's defenses against potential threats.`,
+    ],
+    icon: 'images/CybGuard/DAppsFeatures/1.svg',
+  },
+  {
+    title: 'Secure Architecture Design',
+    text: [
+      `CybGuard crafts robust and secure DApp architectures, protecting your project from the ground up.`,
+    ],
+    icon: 'images/CybGuard/DAppsFeatures/2.svg',
+  },
+  {
+    title: 'Client-Centric Approach',
+    text: [
+      `We prioritize your specific security needs, tailoring our solutions to align with your DApp's unique requirements.`,
+    ],
+    icon: 'images/CybGuard/DAppsFeatures/3.svg',
+  },
+  {
+    title: 'Proactive Threat Detection',
+    text: [
+      `Our continuous monitoring ensures swift detection and mitigation of emerging security risks.`,
+    ],
+    icon: 'images/CybGuard/DAppsFeatures/4.svg',
+  },
+  {
+    title: 'Industry Recognition',
+    text: [
+      `Join a growing list of satisfied clients who vouch for CybGuard's exceptional service and dedication to DApp security.`,
+    ],
+    icon: 'images/CybGuard/DAppsFeatures/5.svg',
+  },
+]
+
+export const partners = [
+  '/images/CybTrace/Partners/1.svg',
+  '/images/CybTrace/Partners/2.svg',
+  '/images/CybTrace/Partners/3.svg',
+  '/images/CybTrace/Partners/4.svg',
+  '/images/CybTrace/Partners/5.svg',
+  '/images/CybTrace/Partners/6.svg',
+  '/images/CybTrace/Partners/1.svg',
+  '/images/CybTrace/Partners/2.svg',
+  '/images/CybTrace/Partners/3.svg',
+  '/images/CybTrace/Partners/4.svg',
+  '/images/CybTrace/Partners/5.svg',
+  '/images/CybTrace/Partners/6.svg',
+]
+
+export const cybTraceFeatures = [
+  {
+    title: 'Real-time assistance',
+    text: [
+      'Protection from on-chain assets exploits and threats before you lose any funds.',
+    ],
+    link: {
+      title: 'Get Notified',
+      href: '#',
+    },
+    icon: '/images/CybTrace/Features/1.svg',
+  },
+  {
+    title: 'Real time transaction protection',
+    text: [
+      'If you have a question before validating a transaction,we will be here to help you out.',
+    ],
+    link: {
+      title: 'Add CyBirb RTP',
+      href: '#',
+    },
+    icon: '/images/CybTrace/Features/2.svg',
+  },
+  {
+    title: 'CybTrace',
+    text: [
+      'CyBirb’s CybTrace protects your wallet against scams and vulnerabilities.',
+    ],
+    icon: '/images/CybTrace/Features/3.svg',
+  },
+  {
+    title: 'Real time detection',
+    text: [
+      'Advanced decision engine which detects fraudulent activity on the blockchain.',
+    ],
+    icon: '/images/CybTrace/Features/4.svg',
+  },
+  {
+    title: 'Real-time assistance',
+    text: [
+      'If you have a question before validating a transaction,we will be here to help you out.',
+    ],
+    link: {
+      title: 'Get your Web3 Wallet Audit',
+      href: '#',
+    },
+    icon: '/images/CybTrace/Features/5.svg',
+  },
+  {
+    title: 'Wallet Audit',
+    text: ['Get your Web3 Wallet Audit'],
+    link: {
+      title: 'Audit',
+      href: '#',
+    },
+    icon: '/images/CybTrace/Features/6.svg',
+  },
+  {
+    title: 'Set up your convenience',
+    text: [
+      `Setup your notifications. Choose the best notification system for you.
+    (Telegram, Chrome, Mail, Discord)`,
+    ],
+    icon: '/images/CybTrace/Features/7.svg',
+  },
+  {
+    title: 'Real Time Protection',
+    text: ['Easy to use – Just a click away.'],
+    icon: '/images/CybTrace/Features/8.svg',
+  },
+]
+
+export const methodologies = [
+  {
+    title: 'Data Gathering',
+    text: 'CybGuard offers robust security measures to protect decentralized applications (DApps) from potential exploits, contract vulnerabilities, and malicious attacks, ensuring the safety and reliability of DApps in the Web3 ecosystem.',
+    image: '/images/CybGuard/Methodologies/1.svg',
+  },
+  {
+    title: 'Threat Modelling',
+    text: 'Conduct a thorough analysis to identify potential threats, attack vectors, and security risks specific to the DApp, considering its components, interactions, and data flows. ',
+    image: '/images/CybGuard/Methodologies/2.svg',
+  },
+  {
+    title: 'Smart Contract Analysis',
+    text: 'CybGuard offers robust security measures to protect decentralized applications (DApps) from potential exploits, contract vulnerabilities, and malicious attacks, ensuring the safety and reliability of DApps in the Web3 ecosystem.',
+    image: '/images/CybGuard/Methodologies/3.svg',
+  },
+  {
+    title: 'Penetration Testing',
+    text: `Simulate real-world attack scenarios to uncover vulnerabilities in the DApp's infrastructure, network, authentication mechanisms, and data storage, employing ethical hacking techniques and methodologies.`,
+    image: '/images/CybGuard/Methodologies/4.svg',
+  },
+  {
+    title: 'Architecture Design Review',
+    text: `Evaluate the DApp's architecture and design to ensure adherence to secure coding practices, industry standards, and best practices for secure decentralized application development.`,
+    image: '/images/CybGuard/Methodologies/5.svg',
+  },
+  {
+    title: 'Risk Assessment',
+    text: `Evaluate the DApp's architecture and design to ensure adherence to secure coding practices, industry standards, and best practices for secure decentralized application development.`,
+    image: '/images/CybGuard/Methodologies/6.svg',
+  },
+  {
+    title: 'Recommendations and Remediation',
+    text: 'Provide a detailed recommendation to ',
+    image: '/images/CybGuard/Methodologies/7.svg',
+  },
+  {
+    title: 'Report',
+    text: `Provide a detailed report of Comprehensive report outlining identified vulnerabilities, risks, and actionable recommendations for enhancing DApp security.
+    `,
+    image: '/images/CybGuard/Methodologies/8.svg',
+  },
+  {
+    title: 'Continuous monitoring',
+    text: `CybGuard offers robust security measures to protect decentralized applications (DApps) from potential exploits, contract vulnerabilities, and malicious attacks, ensuring the safety and reliability of DApps in the Web3 ecosystem.`,
+    image: '/images/CybGuard/Methodologies/9.svg',
+  },
+]
+
 export const services = [
   {
     title: 'CybShield',

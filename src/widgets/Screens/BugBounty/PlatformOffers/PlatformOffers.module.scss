@@ -8,13 +8,4 @@
   div[class='section-text-block'] {
     @apply max-w-[28.470vw] w-full;
   }
-
-  &Features {
-    @apply grid mt-[12vh];
-
-    column-gap: 1.186vw;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 54vh);
-    grid-auto-rows: 54vh;
-  }
 }

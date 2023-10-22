@@ -16,6 +16,15 @@ body {
   }
 }
 
+.section-label-figure {
+  @apply flex items-center justify-center w-full relative text-[1.186vw] uppercase py-[0.9vh];
+  line-height: 145%;
+
+  .figure {
+    @apply absolute top-0 left-0 w-full h-full pointer-events-none z-[-1];
+  }
+}
+
 .clip {
   @apply w-0 h-0 absolute opacity-0 pointer-events-none z-[-1];
 }
@@ -173,7 +182,7 @@ h4,
 h5,
 h6 {
   @apply uppercase;
-  line-height: 96%;
+  line-height: 100%;
   font-weight: 500 !important;
 }
 
@@ -183,13 +192,15 @@ h1 {
 }
 
 h2 {
-  font-size: 3.546vw !important;
+  font-size: 5.338vw !important;
 }
 
 h3 {
+  font-size: 3.796vw !important;
 }
 
 h4 {
+  font-size: 2.847vw !important;
 }
 
 h5 {
@@ -199,6 +210,24 @@ h6 {
 }
 
 big {
+}
+
+.features-grid {
+  @apply grid mt-[12vh];
+
+  &.grid-4-cols {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  &.small {
+    grid-template-rows: repeat(1, 36vh);
+    grid-auto-rows: 36vh;
+  }
+
+  column-gap: 1.186vw;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 54vh);
+  grid-auto-rows: 54vh;
 }
 
 .section-span {

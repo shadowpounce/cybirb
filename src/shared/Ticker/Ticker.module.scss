@@ -14,12 +14,7 @@
   }
 
   &Background {
-    @apply absolute top-0 left-0 right-0 bottom-0 w-full h-[75%] translate-y-[-30%] translate-x-[-14%] z-[-1];
-
-    background-image: url('/images/ComponentBackgrounds/ticker.png');
-    background-size: cover;
-    background-position: right;
-    background-repeat: no-repeat;
+    @apply absolute top-0 left-0 right-0 bottom-0 w-full h-[75%] translate-y-[-30%] translate-x-[-5%] z-[-1];
   }
 }
 
