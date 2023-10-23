@@ -3,6 +3,7 @@ import styles from './Approach.module.scss'
 import { Ticker } from '../../../../shared/Ticker/Ticker'
 import { approaches } from '../../../../data'
 import { ApproachCard } from '../../../../entities/ApproachCard/ApproachCard'
+import { ApproachCards } from '../../../../features/ApproachCards/ApproachCards'
 
 export const Approach = () => {
   return (
@@ -67,16 +68,7 @@ export const Approach = () => {
         <Ticker />
       </div>
       <div className="container">
-        <div className={styles.approachCards}>
-          {approaches.map((approach, idx) => (
-            <ApproachCard
-              id={idx + 1}
-              title={approach.title}
-              text={approach.text}
-              icon={approach.icon}
-            />
-          ))}
-        </div>
+        <ApproachCards />
       </div>
     </section>
   )

@@ -2,6 +2,8 @@ import { Article } from './Article/Article'
 import { Blog } from './Blog/Blog'
 import { BugBounty } from './BugBounty/BugBounty'
 import { CybGuard } from './CybGuard/CybGuard'
+import { CybSafe } from './CybSafe/CybSafe'
+import { CybShield } from './CybShield/CybShield'
 import { CybTrace } from './CybTrace/CybTrace'
 import { CybWatch } from './CybWatch/CybWatch'
 import { Cybnest } from './Cybnest/Cybnest'
@@ -54,6 +56,18 @@ export const pages = [
     title: 'CybWatch',
     path: '/cybwatch',
     element: <CybWatch />,
+    withPreloader: false,
+  },
+  {
+    title: 'CybSafe',
+    path: '/cybsafe',
+    element: <CybSafe />,
+    withPreloader: false,
+  },
+  {
+    title: 'CybShield',
+    path: '/cybshield',
+    element: <CybShield />,
     withPreloader: false,
   },
 ]

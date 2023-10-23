@@ -1,6 +1,6 @@
 import clsx from 'clsx'
 import styles from './Features.module.scss'
-import { cybTraceFeatures } from '../../../../data'
+import { cybShieldFeatures } from '../../../../data'
 import { FeatureCard } from '../../../../entities/FeatureCard/FeatureCard'
 import { ApproachCards } from '../../../../features/ApproachCards/ApproachCards'
 
@@ -31,17 +31,45 @@ export const Features = () => {
             />
           </svg>
         </span>
-        <div className="features-grid grid-4-cols">
-          {cybTraceFeatures.map((feature) => (
+        <div className="features-grid">
+          {cybShieldFeatures.map((feature) => (
             <FeatureCard
               title={feature.title}
               text={feature.text}
               icon={feature.icon}
-              link={feature.link ? true : false}
-              linkHref={feature.link?.href}
-              linkTitle={feature.link?.title}
             />
           ))}
+        </div>
+        <ApproachCards />
+        <div className="flex flex-col mt-[10vh]">
+          <h3 className="text-center">
+            What Cybirb smart contract Audit Report includes?
+          </h3>
+          <div className="section-text-group gap-[3.855vw]">
+            <div className="section-text-block flex-1">
+              <p>
+                \\ Outlining the findings, vulnerabilities, and recommendations
+                for improving the security of the smart contract. This includes
+                suggestions for code modifications, enhancements to access
+                controls, and mitigations for identified risks.
+              </p>
+            </div>
+            <div className="section-text-block flex-1">
+              <p>
+                \\ Classification of vulnerabilities depending on their severity
+              </p>
+            </div>
+            <div className="section-text-block flex-1">
+              <p>\\ Step-by-step recommendations on how to fix all issues.</p>
+            </div>
+            <div className="section-text-block flex-1">
+              <p>
+                \\ Smart contract scoring according to 4 parameters:
+                documentation quality, code quality, architecture quality, and
+                security.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

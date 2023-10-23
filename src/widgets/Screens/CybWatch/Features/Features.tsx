@@ -1,5 +1,7 @@
 import clsx from 'clsx'
 import styles from './Features.module.scss'
+import { cybWatchFeatures } from '../../../../data'
+import { FeatureCard } from '../../../../entities/FeatureCard/FeatureCard'
 
 export const Features = () => {
   return (
@@ -19,6 +21,15 @@ export const Features = () => {
               Blockchain Protocol <br /> Audit Features
             </h3>
           </div>
+        </div>
+        <div className="features-grid">
+          {cybWatchFeatures.map((feature) => (
+            <FeatureCard
+              title={feature.title}
+              text={feature.text}
+              icon={feature.icon}
+            />
+          ))}
         </div>
       </div>
     </section>

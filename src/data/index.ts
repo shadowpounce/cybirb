@@ -125,6 +125,94 @@ export const cybTraceFeatures = [
   },
 ]
 
+export const cybSafeFeatures = [
+  {
+    title: 'Token Distribution',
+    text: [
+      'The way in which tokens are allocated and distributed is an important aspect of any cryptocurrency or blockchain project. This includes the allocation of tokens to investors, the team, advisors, reserve funds development initiative',
+    ],
+    icon: '/images/CybSafe/Features/1.svg',
+  },
+  {
+    title: 'Token Economics',
+    text: [
+      `The economic design of a token is a critical factor in determining its success. This includes mechanisms such as token burning, staking rewards, inflation or deflation mechanisms, and any vesting schedules for team members or advisor`,
+    ],
+    icon: '/images/CybSafe/Features/2.svg',
+  },
+  {
+    title: 'Token Utility',
+    text: [
+      `The use cases and value proposition of the token are essential to understanding the potential of a project. 
+      The token's role in accessing services, governance, staking, and other functionalities will determine its value to user`,
+    ],
+    icon: '/images/CybSafe/Features/3.svg',
+  },
+]
+
+export const cybShieldFeatures = [
+  {
+    title: 'Automatic Scans',
+    text: [
+      'Our APIs provide affordable smart contract security options and the peace of mind that your code is fortified.',
+    ],
+    icon: '/images/CybShield/Features/1.svg',
+  },
+  {
+    title: 'Expert Review',
+    text: [
+      'Veteran security auditors manually double-check your code to eliminate spurious results.',
+    ],
+    icon: '/images/CybWatch/Features/2.svg',
+  },
+  {
+    title: 'Easy Integration',
+    text: [
+      'Our tools integrate into your development environment so you can perform continuous security analysis.',
+    ],
+    icon: '/images/CybWatch/Features/3.svg',
+  },
+  {
+    title: 'Continuous Verification',
+    text: [
+      'Monitor any security vulnerabilities as you write and change code.',
+    ],
+    icon: '/images/CybWatch/Features/1.svg',
+  },
+  {
+    title: 'Detailed Analytics Reports',
+    text: [
+      'Receive a vulnerability report with an executive summary, vulnerability details, and mitigation guidance.',
+    ],
+    icon: '/images/CybWatch/Features/2.svg',
+  },
+]
+
+export const cybWatchFeatures = [
+  {
+    title: 'Smart Contracts',
+    text: [
+      'If the blockchain protocol supports smart contracts, auditors closely scrutinize the smart contract code and logic. They analyze the code for potential vulnerabilities, bugs, or security loopholes that could lead to authorized access, manipulation, or loss of funds.',
+    ],
+    icon: '/images/CybWatch/Features/1.svg',
+  },
+  {
+    title: 'Security Measures',
+    text: [
+      `Security is a fundamental aspect of any blockchain protocol. Auditors review the protocol's security measures, including cryptographic algorithms, encryption, hashing functions, and digital signatures. They are implemented correctly and can withstand potential attacks or vulnerabilities.`,
+    ],
+    icon: '/images/CybWatch/Features/2.svg',
+  },
+  {
+    title: 'Consensus Mechanism',
+    text: [
+      `The consensus mechanism is a crucial feature of any blockchain protocol. Auditors assess the consensus algorithm used, such as (PoW) (PoS) to ensure its integrity, security, and resistance to attacks. consensus mechanism is crucial for the security, and scalability 
+    of a blockchain network.`,
+    ],
+    icon: '/images/CybWatch/Features/3.svg',
+  },
+]
+
 export const methodologies = [
   {
     title: 'Data Gathering',
@@ -171,6 +259,33 @@ export const methodologies = [
     title: 'Continuous monitoring',
     text: `CybGuard offers robust security measures to protect decentralized applications (DApps) from potential exploits, contract vulnerabilities, and malicious attacks, ensuring the safety and reliability of DApps in the Web3 ecosystem.`,
     image: '/images/CybGuard/Methodologies/9.svg',
+  },
+]
+
+export const questions = [
+  {
+    title: 'How is the process of doing a smart contract audit?',
+    text: 'The prices depend on the length and complexity of the smart contracts. It is necessary that you can share the repository or code that you want to audit so we can evaluate it. To secure your audit in -The queue we expect you to pay 50% upfront and 50% once we deliver you the finalized audit. Of course, we will provide you first with a statement of work with the details and a proper invoice and send you a USDT address. There are no hidden fees and penalties.',
+  },
+  {
+    title: 'How much is audit cost?',
+    text: 'The prices depend on the length and complexity of the smart contracts. It is necessary that you can share the repository or code that you want to audit so we can evaluate it. To secure your audit in -The queue we expect you to pay 50% upfront and 50% once we deliver you the finalized audit. Of course, we will provide you first with a statement of work with the details and a proper invoice and send you a USDT address. There are no hidden fees and penalties.',
+  },
+  {
+    title: 'How long does it take to audit a crypto project?',
+    text: 'The prices depend on the length and complexity of the smart contracts. It is necessary that you can share the repository or code that you want to audit so we can evaluate it. To secure your audit in -The queue we expect you to pay 50% upfront and 50% once we deliver you the finalized audit. Of course, we will provide you first with a statement of work with the details and a proper invoice and send you a USDT address. There are no hidden fees and penalties.',
+  },
+  {
+    title: 'How long does a smart contract audit take?',
+    text: 'The prices depend on the length and complexity of the smart contracts. It is necessary that you can share the repository or code that you want to audit so we can evaluate it. To secure your audit in -The queue we expect you to pay 50% upfront and 50% once we deliver you the finalized audit. Of course, we will provide you first with a statement of work with the details and a proper invoice and send you a USDT address. There are no hidden fees and penalties.',
+  },
+  {
+    title: 'What issues can be identified during a smart contract audit?',
+    text: 'The prices depend on the length and complexity of the smart contracts. It is necessary that you can share the repository or code that you want to audit so we can evaluate it. To secure your audit in -The queue we expect you to pay 50% upfront and 50% once we deliver you the finalized audit. Of course, we will provide you first with a statement of work with the details and a proper invoice and send you a USDT address. There are no hidden fees and penalties.',
+  },
+  {
+    title: 'Is the report private?',
+    text: 'The prices depend on the length and complexity of the smart contracts. It is necessary that you can share the repository or code that you want to audit so we can evaluate it. To secure your audit in -The queue we expect you to pay 50% upfront and 50% once we deliver you the finalized audit. Of course, we will provide you first with a statement of work with the details and a proper invoice and send you a USDT address. There are no hidden fees and penalties.',
   },
 ]
 

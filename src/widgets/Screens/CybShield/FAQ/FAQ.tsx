@@ -1,15 +1,14 @@
 import clsx from 'clsx'
-import styles from './Features.module.scss'
-import { cybTraceFeatures } from '../../../../data'
-import { FeatureCard } from '../../../../entities/FeatureCard/FeatureCard'
-import { ApproachCards } from '../../../../features/ApproachCards/ApproachCards'
+import styles from './FAQ.module.scss'
+import { questions } from '../../../../data'
+import { Dropdown } from '../../../../shared/Dropdown/Dropdown'
 
-export const Features = () => {
+export const FAQ = () => {
   return (
-    <section className={clsx('section', styles.features)}>
-      <div className="container space-bottom">
+    <section className={clsx('section', styles.faq)}>
+      <div className="container space-top space-bottom">
         <span className="section-label-figure">
-          features
+          FAQ
           <svg
             className="figure"
             preserveAspectRatio="none"
@@ -31,16 +30,9 @@ export const Features = () => {
             />
           </svg>
         </span>
-        <div className="features-grid grid-4-cols">
-          {cybTraceFeatures.map((feature) => (
-            <FeatureCard
-              title={feature.title}
-              text={feature.text}
-              icon={feature.icon}
-              link={feature.link ? true : false}
-              linkHref={feature.link?.href}
-              linkTitle={feature.link?.title}
-            />
+        <div className={styles.faqList}>
+          {questions.map((q, idx) => (
+            <Dropdown id={idx + 1} title={q.title} bodyText={q.text} />
           ))}
         </div>
       </div>
