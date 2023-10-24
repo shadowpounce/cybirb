@@ -23,6 +23,7 @@ export const Preloader = () => {
   const range = useRef<SVGSVGElement>(null)
   const logo = useRef<SVGSVGElement>(null)
   const text = useRef<HTMLDivElement>(null)
+  const counterLabel = useRef<HTMLDivElement>(null)
   const imageLt = useRef<HTMLImageElement>(null)
   const imageLb = useRef<HTMLImageElement>(null)
   const imageRt = useRef<HTMLImageElement>(null)
@@ -172,7 +173,7 @@ export const Preloader = () => {
     }
   }, [secondPartImages])
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     const ctx = gsap.context(() => {
       // counter
       const tl1 = gsap.fromTo(
@@ -261,14 +262,14 @@ export const Preloader = () => {
     })
 
     return () => ctx.revert()
-  }, [pageLoaded])
+  }, [])
 
   return (
     <>
       {!closed && (
         <div ref={ref} id="preloader" className={clsx(styles.preloader)}>
           <div className="container">
-            <div className={styles.preloaderLabel}>
+            <div ref={counterLabel} className={styles.preloaderLabel}>
               <span>
                 [ <span className="preloader-counter"></span>% ]
               </span>

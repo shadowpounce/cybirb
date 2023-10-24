@@ -3,7 +3,7 @@
 
   background-color: $dark;
 
-  transition: 1s ease !important;
+  transition: 1s ease 0.5s !important;
   transition-property: opacity, scale !important;
 
   &.loaded {

@@ -5,7 +5,6 @@ import { Services } from './Services/Services'
 import { Testimonials } from './Testimonials/Testimonials'
 
 export const HomeScreens = [
-  <div className="top-shadow"></div>,
   <Hero />,
   <Services />,
   <Blog />,

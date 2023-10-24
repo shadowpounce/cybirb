@@ -58,7 +58,9 @@ body {
 }
 
 .top-shadow {
-  @apply block absolute left-1/2 translate-x-[-50%] top-0 max-w-[100vw] h-[100vh] w-full z-[5] pointer-events-none;
+  @apply block absolute left-1/2 top-0 max-w-[100vw] h-[100vh] w-full z-[6] pointer-events-none;
+
+  transform: translate(-50%, 0) !important;
 
   background-image: url('/images/Home/top-gradient.png');
   background-repeat: no-repeat;
@@ -98,6 +100,14 @@ body {
     @apply text-[1.068vw];
 
     color: $light-gray;
+
+    > .reveal {
+      @apply opacity-0 translate-y-[50%];
+
+      > .reveal {
+        @apply opacity-0 translate-y-[50%];
+      }
+    }
   }
 }
 
@@ -141,43 +151,6 @@ section {
   @apply h-screen bg-center bg-no-repeat relative overflow-hidden;
 
   background-size: 100%;
-
-  &.animated {
-    .reveal {
-      transform: translate(0) !important;
-      translate: 0 !important;
-      rotate: 0deg !important;
-      scale: 1 !important;
-      opacity: 1 !important;
-    }
-
-    .reveal-anim {
-      &.animated {
-        animation-fill-mode: forwards;
-        animation-name: revealAnim;
-      }
-    }
-
-    .reveal-width {
-      width: 100% !important;
-    }
-  }
-}
-
-div {
-  &.animated {
-    .reveal {
-      transform: translate(0) !important;
-      translate: 0 !important;
-      rotate: 0deg !important;
-      scale: 1 !important;
-      opacity: 1 !important;
-    }
-
-    .reveal-width {
-      width: 100% !important;
-    }
-  }
 }
 
 h1,
@@ -267,24 +240,8 @@ big {
 }
 
 .reveal {
-  transition-duration: 0.5s;
-  transition-property: opacity, scale, translate, rotate, transform;
-
-  &.reveal-width {
-    transition-property: opacity, scale, translate, rotate, transform, width;
-  }
 }
 
 .fp-watermark {
   display: none;
-}
-
-@keyframes revealAnim {
-  to {
-    transform: translate(0);
-    translate: 0;
-    rotate: 0deg;
-    scale: 1;
-    opacity: 1;
-  }
 }

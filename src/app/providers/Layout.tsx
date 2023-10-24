@@ -8,6 +8,7 @@ import { MainContext } from './MainContext'
 import { Preloader } from '../../widgets/Preloader/Preloader'
 import { Menu } from '../../widgets/Menu/Menu'
 import { useLocation } from 'react-router-dom'
+import { WithScrollSmoother } from './WithScrollSmoother'
 
 // MouseFollower.registerGSAP(gsap)
 
@@ -50,11 +51,16 @@ export const Layout: FC<IProps> = ({ children, withPreloader = true }) => {
       }}
     >
       {withPreloader && <Preloader />}
-      {/* {window.innerWidth > 768 && <Cursor />} */}
+      {currentPage === 'home' && pageLoaded && (
+        <div
+          data-start="top top+=500%"
+          data-delay="1"
+          className="top-shadow reveal opacity-0"
+        ></div>
+      )}
       <Menu />
       <Header />
-      {children}
-      <Footer />
+      <WithScrollSmoother>{children}</WithScrollSmoother>
     </MainContext.Provider>
   )
 }
