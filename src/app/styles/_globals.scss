@@ -14,6 +14,10 @@ body {
     @apply w-[0.356vw] rounded-[0.178vw];
     background-color: $blue;
   }
+
+  &.freezed {
+    overflow: hidden !important;
+  }
 }
 
 .section-label-figure {
